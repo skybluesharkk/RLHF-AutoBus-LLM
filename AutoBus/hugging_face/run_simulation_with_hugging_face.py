@@ -3,7 +3,7 @@ import numpy as np
 from AutoBus.controllers.gpt_controller import NaturalLanguageController  # GPT 컨트롤러
 from stable_baselines3 import PPO
 from metadrive.envs import MetaDriveEnv
-from transformers import pipelineㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊㅊ
+from transformers import pipeline
 # GUI 설정
 WIDTH, HEIGHT = 500, 350  # GUI 창 크기
 BUTTON_COLOR = (0, 128, 255)  # 파란색
