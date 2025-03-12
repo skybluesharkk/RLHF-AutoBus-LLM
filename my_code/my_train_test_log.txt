@@ -1,0 +1,1794 @@
+Using cpu device
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 402         |
+|    ep_rew_mean          | 6.59        |
+| time/                   |             |
+|    fps                  | 506         |
+|    iterations           | 4           |
+|    time_elapsed         | 16          |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.005828871 |
+|    clip_fraction        | 0.0229      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.82       |
+|    explained_variance   | -0.0357     |
+|    learning_rate        | 0.0001      |
+|    loss                 | 0.34        |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.00131    |
+|    std                  | 0.993       |
+|    value_loss           | 0.617       |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 340          |
+|    ep_rew_mean          | 9.33         |
+| time/                   |              |
+|    fps                  | 499          |
+|    iterations           | 8            |
+|    time_elapsed         | 32           |
+|    total_timesteps      | 16384        |
+| train/                  |              |
+|    approx_kl            | 0.0064049084 |
+|    clip_fraction        | 0.0431       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.79        |
+|    explained_variance   | 0.125        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.566        |
+|    n_updates            | 70           |
+|    policy_gradient_loss | -0.00316     |
+|    std                  | 0.973        |
+|    value_loss           | 1.43         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 258          |
+|    ep_rew_mean          | 11.7         |
+| time/                   |              |
+|    fps                  | 477          |
+|    iterations           | 12           |
+|    time_elapsed         | 51           |
+|    total_timesteps      | 24576        |
+| train/                  |              |
+|    approx_kl            | 0.0072621834 |
+|    clip_fraction        | 0.0583       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.78        |
+|    explained_variance   | 0.29         |
+|    learning_rate        | 0.0001       |
+|    loss                 | 1.17         |
+|    n_updates            | 110          |
+|    policy_gradient_loss | -0.00435     |
+|    std                  | 0.969        |
+|    value_loss           | 2.28         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 122         |
+|    ep_rew_mean          | 13          |
+| time/                   |             |
+|    fps                  | 463         |
+|    iterations           | 16          |
+|    time_elapsed         | 70          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.006977212 |
+|    clip_fraction        | 0.0677      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.77       |
+|    explained_variance   | 0.0811      |
+|    learning_rate        | 0.0001      |
+|    loss                 | 5.09        |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.00652    |
+|    std                  | 0.967       |
+|    value_loss           | 8.98        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 97          |
+|    ep_rew_mean          | 12.4        |
+| time/                   |             |
+|    fps                  | 438         |
+|    iterations           | 20          |
+|    time_elapsed         | 93          |
+|    total_timesteps      | 40960       |
+| train/                  |             |
+|    approx_kl            | 0.005811688 |
+|    clip_fraction        | 0.0239      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.77       |
+|    explained_variance   | 0.384       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 3.34        |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.0038     |
+|    std                  | 0.966       |
+|    value_loss           | 8.28        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 83           |
+|    ep_rew_mean          | 11.2         |
+| time/                   |              |
+|    fps                  | 427          |
+|    iterations           | 24           |
+|    time_elapsed         | 115          |
+|    total_timesteps      | 49152        |
+| train/                  |              |
+|    approx_kl            | 0.0014214737 |
+|    clip_fraction        | 4.88e-05     |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.76        |
+|    explained_variance   | 0.195        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 5.4          |
+|    n_updates            | 230          |
+|    policy_gradient_loss | -0.000215    |
+|    std                  | 0.963        |
+|    value_loss           | 10.8         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 93.1         |
+|    ep_rew_mean          | 11.4         |
+| time/                   |              |
+|    fps                  | 418          |
+|    iterations           | 28           |
+|    time_elapsed         | 136          |
+|    total_timesteps      | 57344        |
+| train/                  |              |
+|    approx_kl            | 0.0052950606 |
+|    clip_fraction        | 0.0368       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.76        |
+|    explained_variance   | 0.607        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 1.45         |
+|    n_updates            | 270          |
+|    policy_gradient_loss | -0.00404     |
+|    std                  | 0.96         |
+|    value_loss           | 4.58         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 86.2         |
+|    ep_rew_mean          | 12.3         |
+| time/                   |              |
+|    fps                  | 412          |
+|    iterations           | 32           |
+|    time_elapsed         | 158          |
+|    total_timesteps      | 65536        |
+| train/                  |              |
+|    approx_kl            | 0.0058448766 |
+|    clip_fraction        | 0.0327       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.75        |
+|    explained_variance   | 0.531        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 3.49         |
+|    n_updates            | 310          |
+|    policy_gradient_loss | -0.00191     |
+|    std                  | 0.958        |
+|    value_loss           | 7.39         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 73.7        |
+|    ep_rew_mean          | 11.4        |
+| time/                   |             |
+|    fps                  | 406         |
+|    iterations           | 36          |
+|    time_elapsed         | 181         |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.005045112 |
+|    clip_fraction        | 0.043       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.74       |
+|    explained_variance   | 0.31        |
+|    learning_rate        | 0.0001      |
+|    loss                 | 6.27        |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.0056     |
+|    std                  | 0.953       |
+|    value_loss           | 13.2        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 75.1         |
+|    ep_rew_mean          | 11.9         |
+| time/                   |              |
+|    fps                  | 398          |
+|    iterations           | 40           |
+|    time_elapsed         | 205          |
+|    total_timesteps      | 81920        |
+| train/                  |              |
+|    approx_kl            | 0.0045709508 |
+|    clip_fraction        | 0.0144       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.73        |
+|    explained_variance   | 0.589        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.47         |
+|    n_updates            | 390          |
+|    policy_gradient_loss | -0.000736    |
+|    std                  | 0.947        |
+|    value_loss           | 9.42         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 69.7         |
+|    ep_rew_mean          | 11           |
+| time/                   |              |
+|    fps                  | 394          |
+|    iterations           | 44           |
+|    time_elapsed         | 228          |
+|    total_timesteps      | 90112        |
+| train/                  |              |
+|    approx_kl            | 0.0062213996 |
+|    clip_fraction        | 0.0442       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.73        |
+|    explained_variance   | 0.484        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.65         |
+|    n_updates            | 430          |
+|    policy_gradient_loss | -0.00364     |
+|    std                  | 0.945        |
+|    value_loss           | 11.5         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 75.7        |
+|    ep_rew_mean          | 12.6        |
+| time/                   |             |
+|    fps                  | 389         |
+|    iterations           | 48          |
+|    time_elapsed         | 252         |
+|    total_timesteps      | 98304       |
+| train/                  |             |
+|    approx_kl            | 0.004389464 |
+|    clip_fraction        | 0.0129      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.71       |
+|    explained_variance   | 0.618       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 6.13        |
+|    n_updates            | 470         |
+|    policy_gradient_loss | -0.00165    |
+|    std                  | 0.939       |
+|    value_loss           | 10.6        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 89.6        |
+|    ep_rew_mean          | 15          |
+| time/                   |             |
+|    fps                  | 387         |
+|    iterations           | 52          |
+|    time_elapsed         | 274         |
+|    total_timesteps      | 106496      |
+| train/                  |             |
+|    approx_kl            | 0.006204186 |
+|    clip_fraction        | 0.0694      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.71       |
+|    explained_variance   | 0.497       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 4.25        |
+|    n_updates            | 510         |
+|    policy_gradient_loss | -0.00604    |
+|    std                  | 0.94        |
+|    value_loss           | 10.4        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 78.1         |
+|    ep_rew_mean          | 13.4         |
+| time/                   |              |
+|    fps                  | 388          |
+|    iterations           | 56           |
+|    time_elapsed         | 295          |
+|    total_timesteps      | 114688       |
+| train/                  |              |
+|    approx_kl            | 0.0037770579 |
+|    clip_fraction        | 0.0125       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.71        |
+|    explained_variance   | 0.507        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.58         |
+|    n_updates            | 550          |
+|    policy_gradient_loss | -0.00149     |
+|    std                  | 0.937        |
+|    value_loss           | 11.1         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 75.5         |
+|    ep_rew_mean          | 12.6         |
+| time/                   |              |
+|    fps                  | 386          |
+|    iterations           | 60           |
+|    time_elapsed         | 318          |
+|    total_timesteps      | 122880       |
+| train/                  |              |
+|    approx_kl            | 0.0054463544 |
+|    clip_fraction        | 0.0302       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.7         |
+|    explained_variance   | 0.558        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.39         |
+|    n_updates            | 590          |
+|    policy_gradient_loss | -0.00232     |
+|    std                  | 0.933        |
+|    value_loss           | 12.1         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 69.9         |
+|    ep_rew_mean          | 12.5         |
+| time/                   |              |
+|    fps                  | 386          |
+|    iterations           | 64           |
+|    time_elapsed         | 338          |
+|    total_timesteps      | 131072       |
+| train/                  |              |
+|    approx_kl            | 0.0049156975 |
+|    clip_fraction        | 0.0404       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.69        |
+|    explained_variance   | 0.508        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.33         |
+|    n_updates            | 630          |
+|    policy_gradient_loss | -0.00398     |
+|    std                  | 0.927        |
+|    value_loss           | 12.5         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 70.2        |
+|    ep_rew_mean          | 12.5        |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 68          |
+|    time_elapsed         | 359         |
+|    total_timesteps      | 139264      |
+| train/                  |             |
+|    approx_kl            | 0.006584227 |
+|    clip_fraction        | 0.037       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.68       |
+|    explained_variance   | 0.318       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 5.88        |
+|    n_updates            | 670         |
+|    policy_gradient_loss | -0.00362    |
+|    std                  | 0.923       |
+|    value_loss           | 13.8        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 66.6        |
+|    ep_rew_mean          | 13.6        |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 72          |
+|    time_elapsed         | 381         |
+|    total_timesteps      | 147456      |
+| train/                  |             |
+|    approx_kl            | 0.004712797 |
+|    clip_fraction        | 0.0201      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.66       |
+|    explained_variance   | 0.449       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 8.3         |
+|    n_updates            | 710         |
+|    policy_gradient_loss | -0.00146    |
+|    std                  | 0.914       |
+|    value_loss           | 14          |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 68.4       |
+|    ep_rew_mean          | 13.7       |
+| time/                   |            |
+|    fps                  | 386        |
+|    iterations           | 76         |
+|    time_elapsed         | 402        |
+|    total_timesteps      | 155648     |
+| train/                  |            |
+|    approx_kl            | 0.00857567 |
+|    clip_fraction        | 0.113      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.64      |
+|    explained_variance   | 0.598      |
+|    learning_rate        | 0.0001     |
+|    loss                 | 6.59       |
+|    n_updates            | 750        |
+|    policy_gradient_loss | -0.0125    |
+|    std                  | 0.909      |
+|    value_loss           | 12.1       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 65          |
+|    ep_rew_mean          | 12.8        |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 80          |
+|    time_elapsed         | 423         |
+|    total_timesteps      | 163840      |
+| train/                  |             |
+|    approx_kl            | 0.004769153 |
+|    clip_fraction        | 0.00894     |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.64       |
+|    explained_variance   | 0.416       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 8.33        |
+|    n_updates            | 790         |
+|    policy_gradient_loss | -0.000751   |
+|    std                  | 0.906       |
+|    value_loss           | 16.8        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 71.3        |
+|    ep_rew_mean          | 13.7        |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 84          |
+|    time_elapsed         | 444         |
+|    total_timesteps      | 172032      |
+| train/                  |             |
+|    approx_kl            | 0.004534456 |
+|    clip_fraction        | 0.0256      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.63       |
+|    explained_variance   | 0.602       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 5.21        |
+|    n_updates            | 830         |
+|    policy_gradient_loss | -0.00194    |
+|    std                  | 0.901       |
+|    value_loss           | 11          |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 64.7        |
+|    ep_rew_mean          | 12          |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 88          |
+|    time_elapsed         | 466         |
+|    total_timesteps      | 180224      |
+| train/                  |             |
+|    approx_kl            | 0.006530481 |
+|    clip_fraction        | 0.035       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.62       |
+|    explained_variance   | 0.488       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 4.9         |
+|    n_updates            | 870         |
+|    policy_gradient_loss | -0.00266    |
+|    std                  | 0.901       |
+|    value_loss           | 11.1        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 68.6         |
+|    ep_rew_mean          | 14.5         |
+| time/                   |              |
+|    fps                  | 386          |
+|    iterations           | 92           |
+|    time_elapsed         | 487          |
+|    total_timesteps      | 188416       |
+| train/                  |              |
+|    approx_kl            | 0.0059314086 |
+|    clip_fraction        | 0.0496       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.62        |
+|    explained_variance   | 0.634        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.75         |
+|    n_updates            | 910          |
+|    policy_gradient_loss | -0.00554     |
+|    std                  | 0.901        |
+|    value_loss           | 12.3         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 67.5         |
+|    ep_rew_mean          | 13.2         |
+| time/                   |              |
+|    fps                  | 385          |
+|    iterations           | 96           |
+|    time_elapsed         | 510          |
+|    total_timesteps      | 196608       |
+| train/                  |              |
+|    approx_kl            | 0.0029880186 |
+|    clip_fraction        | 0.0187       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.61        |
+|    explained_variance   | 0.562        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 7.76         |
+|    n_updates            | 950          |
+|    policy_gradient_loss | -0.00247     |
+|    std                  | 0.893        |
+|    value_loss           | 13.3         |
+------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 75.6         |
+|    ep_rew_mean          | 15.4         |
+| time/                   |              |
+|    fps                  | 384          |
+|    iterations           | 100          |
+|    time_elapsed         | 532          |
+|    total_timesteps      | 204800       |
+| train/                  |              |
+|    approx_kl            | 0.0071968576 |
+|    clip_fraction        | 0.0921       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.6         |
+|    explained_variance   | 0.595        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 3.88         |
+|    n_updates            | 990          |
+|    policy_gradient_loss | -0.00649     |
+|    std                  | 0.889        |
+|    value_loss           | 10.3         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 79          |
+|    ep_rew_mean          | 17.1        |
+| time/                   |             |
+|    fps                  | 384         |
+|    iterations           | 104         |
+|    time_elapsed         | 553         |
+|    total_timesteps      | 212992      |
+| train/                  |             |
+|    approx_kl            | 0.006843319 |
+|    clip_fraction        | 0.0566      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.59       |
+|    explained_variance   | 0.568       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 7.17        |
+|    n_updates            | 1030        |
+|    policy_gradient_loss | -0.00333    |
+|    std                  | 0.885       |
+|    value_loss           | 13.8        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 72.5         |
+|    ep_rew_mean          | 16.2         |
+| time/                   |              |
+|    fps                  | 383          |
+|    iterations           | 108          |
+|    time_elapsed         | 576          |
+|    total_timesteps      | 221184       |
+| train/                  |              |
+|    approx_kl            | 0.0020719604 |
+|    clip_fraction        | 0.0118       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.58        |
+|    explained_variance   | 0.528        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.1          |
+|    n_updates            | 1070         |
+|    policy_gradient_loss | -0.0015      |
+|    std                  | 0.88         |
+|    value_loss           | 13.5         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 81.7        |
+|    ep_rew_mean          | 22.1        |
+| time/                   |             |
+|    fps                  | 384         |
+|    iterations           | 112         |
+|    time_elapsed         | 596         |
+|    total_timesteps      | 229376      |
+| train/                  |             |
+|    approx_kl            | 0.006430871 |
+|    clip_fraction        | 0.0625      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.56       |
+|    explained_variance   | 0.506       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 11.9        |
+|    n_updates            | 1110        |
+|    policy_gradient_loss | -0.00614    |
+|    std                  | 0.874       |
+|    value_loss           | 22.9        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 84.7         |
+|    ep_rew_mean          | 21.9         |
+| time/                   |              |
+|    fps                  | 384          |
+|    iterations           | 116          |
+|    time_elapsed         | 618          |
+|    total_timesteps      | 237568       |
+| train/                  |              |
+|    approx_kl            | 0.0037415186 |
+|    clip_fraction        | 0.03         |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.55        |
+|    explained_variance   | 0.544        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 6.35         |
+|    n_updates            | 1150         |
+|    policy_gradient_loss | -0.00216     |
+|    std                  | 0.869        |
+|    value_loss           | 16.4         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 106         |
+|    ep_rew_mean          | 29.9        |
+| time/                   |             |
+|    fps                  | 383         |
+|    iterations           | 120         |
+|    time_elapsed         | 640         |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.003505332 |
+|    clip_fraction        | 0.025       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.53       |
+|    explained_variance   | 0.422       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 6.33        |
+|    n_updates            | 1190        |
+|    policy_gradient_loss | -0.00138    |
+|    std                  | 0.862       |
+|    value_loss           | 21.4        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 118         |
+|    ep_rew_mean          | 33          |
+| time/                   |             |
+|    fps                  | 383         |
+|    iterations           | 124         |
+|    time_elapsed         | 661         |
+|    total_timesteps      | 253952      |
+| train/                  |             |
+|    approx_kl            | 0.008038292 |
+|    clip_fraction        | 0.085       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.52       |
+|    explained_variance   | 0.61        |
+|    learning_rate        | 0.0001      |
+|    loss                 | 8.1         |
+|    n_updates            | 1230        |
+|    policy_gradient_loss | -0.0064     |
+|    std                  | 0.856       |
+|    value_loss           | 17.3        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 142          |
+|    ep_rew_mean          | 46.8         |
+| time/                   |              |
+|    fps                  | 384          |
+|    iterations           | 128          |
+|    time_elapsed         | 681          |
+|    total_timesteps      | 262144       |
+| train/                  |              |
+|    approx_kl            | 0.0038590855 |
+|    clip_fraction        | 0.0192       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.5         |
+|    explained_variance   | 0.309        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 10.6         |
+|    n_updates            | 1270         |
+|    policy_gradient_loss | -0.00131     |
+|    std                  | 0.848        |
+|    value_loss           | 23.3         |
+------------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 155        |
+|    ep_rew_mean          | 57.8       |
+| time/                   |            |
+|    fps                  | 385        |
+|    iterations           | 132        |
+|    time_elapsed         | 701        |
+|    total_timesteps      | 270336     |
+| train/                  |            |
+|    approx_kl            | 0.00530452 |
+|    clip_fraction        | 0.124      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.48      |
+|    explained_variance   | 0.428      |
+|    learning_rate        | 0.0001     |
+|    loss                 | 10         |
+|    n_updates            | 1310       |
+|    policy_gradient_loss | -0.00341   |
+|    std                  | 0.842      |
+|    value_loss           | 23         |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 149         |
+|    ep_rew_mean          | 59          |
+| time/                   |             |
+|    fps                  | 386         |
+|    iterations           | 136         |
+|    time_elapsed         | 721         |
+|    total_timesteps      | 278528      |
+| train/                  |             |
+|    approx_kl            | 0.010207104 |
+|    clip_fraction        | 0.06        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.46       |
+|    explained_variance   | 0.498       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 16.5        |
+|    n_updates            | 1350        |
+|    policy_gradient_loss | -0.00309    |
+|    std                  | 0.835       |
+|    value_loss           | 29.6        |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 155          |
+|    ep_rew_mean          | 69.7         |
+| time/                   |              |
+|    fps                  | 385          |
+|    iterations           | 140          |
+|    time_elapsed         | 744          |
+|    total_timesteps      | 286720       |
+| train/                  |              |
+|    approx_kl            | 0.0016050921 |
+|    clip_fraction        | 0.097        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.45        |
+|    explained_variance   | 0.256        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 23.1         |
+|    n_updates            | 1390         |
+|    policy_gradient_loss | 0.00288      |
+|    std                  | 0.829        |
+|    value_loss           | 43.7         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 161         |
+|    ep_rew_mean          | 77          |
+| time/                   |             |
+|    fps                  | 385         |
+|    iterations           | 144         |
+|    time_elapsed         | 764         |
+|    total_timesteps      | 294912      |
+| train/                  |             |
+|    approx_kl            | 0.009544872 |
+|    clip_fraction        | 0.0898      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.44       |
+|    explained_variance   | 0.353       |
+|    learning_rate        | 0.0001      |
+|    loss                 | 19.4        |
+|    n_updates            | 1430        |
+|    policy_gradient_loss | 0.000326    |
+|    std                  | 0.829       |
+|    value_loss           | 40.8        |
+-----------------------------------------
+ Model saved: ppo_metadrive_test_mycode.zip
+Step: 0, Action: [-1.  1.], Reward: 0.006953205267788276, Done: False
+Step: 1, Action: [0.04210246 1.        ], Reward: 0.031621464595247006, Done: False
+Step: 2, Action: [-0.0020932  1.       ], Reward: 0.06017747990995688, Done: False
+Step: 3, Action: [-1.  1.], Reward: 0.08071655755190416, Done: False
+Step: 4, Action: [-1.  1.], Reward: 0.08857740187568117, Done: False
+Step: 5, Action: [0.68381155 1.        ], Reward: 0.0995941809317113, Done: False
+Step: 6, Action: [-1.  1.], Reward: 0.10109745415042791, Done: False
+Step: 7, Action: [0.28562045 0.8054787 ], Reward: 0.10525514359570287, Done: False
+Step: 8, Action: [0.4828234 1.       ], Reward: 0.12369574157741421, Done: False
+Step: 9, Action: [-0.57359827  1.        ], Reward: 0.14107186020573972, Done: False
+Step: 10, Action: [0.2196061 1.       ], Reward: 0.15299832811190683, Done: False
+Step: 11, Action: [-0.94432795  1.        ], Reward: 0.1683930080249342, Done: False
+Step: 12, Action: [-1.  1.], Reward: 0.15898413406427914, Done: False
+Step: 13, Action: [0.17678866 1.        ], Reward: 0.1601561461247746, Done: False
+Step: 14, Action: [0.403119 1.      ], Reward: 0.18161504514226295, Done: False
+Step: 15, Action: [-0.27172887  1.        ], Reward: 0.201476771663469, Done: False
+Step: 16, Action: [-0.90310717  0.8703228 ], Reward: 0.21091910191083554, Done: False
+Step: 17, Action: [-0.1115828  0.569643 ], Reward: 0.20657353351649607, Done: False
+Step: 18, Action: [-1.  1.], Reward: 0.21557639072806692, Done: False
+Step: 19, Action: [-0.14598167  1.        ], Reward: 0.21290045011591519, Done: False
+Step: 20, Action: [-1.  1.], Reward: 0.23171846107637314, Done: False
+Step: 21, Action: [-1.  1.], Reward: 0.21480627953752288, Done: False
+Step: 22, Action: [-1.  1.], Reward: 0.20236468689049916, Done: False
+Step: 23, Action: [1. 1.], Reward: 0.196883330157144, Done: False
+Step: 24, Action: [-1.  1.], Reward: 0.19055961669427302, Done: False
+Step: 25, Action: [-1.  1.], Reward: 0.1760662613613722, Done: False
+Step: 26, Action: [0.47812003 1.        ], Reward: 0.17300083762661292, Done: False
+Step: 27, Action: [-1.         0.6278341], Reward: 0.17839093789009225, Done: False
+Step: 28, Action: [-0.2399795  1.       ], Reward: 0.16902006247079904, Done: False
+Step: 29, Action: [0.18751195 1.        ], Reward: 0.20794799062967345, Done: False
+Step: 30, Action: [1.         0.96459174], Reward: 0.2380998362485692, Done: False
+Step: 31, Action: [0.48654544 1.        ], Reward: 0.2548949184239171, Done: False
+Step: 32, Action: [-0.5279344  1.       ], Reward: 0.2706312971865072, Done: False
+Step: 33, Action: [1. 1.], Reward: 0.2591343735970688, Done: False
+Step: 34, Action: [1. 1.], Reward: 0.2676648125656123, Done: False
+Step: 35, Action: [-0.4613981  1.       ], Reward: 0.2709207513038272, Done: False
+Step: 36, Action: [1. 1.], Reward: 0.2608826731577062, Done: False
+Step: 37, Action: [0.2119693 1.       ], Reward: 0.2701118604252181, Done: False
+Step: 38, Action: [1. 1.], Reward: 0.28616850415043343, Done: False
+Step: 39, Action: [1. 1.], Reward: 0.29230480795283287, Done: False
+Step: 40, Action: [0.28657132 1.        ], Reward: 0.3025954492918945, Done: False
+Step: 41, Action: [0.13841297 1.        ], Reward: 0.32658789884241657, Done: False
+Step: 42, Action: [1. 1.], Reward: 0.3443747301110897, Done: False
+Step: 43, Action: [ 0.30591732 -0.6569083 ], Reward: 0.31477447029639755, Done: False
+Step: 44, Action: [-0.7257334  1.       ], Reward: 0.24108256754599047, Done: False
+Step: 45, Action: [-0.39154354  1.        ], Reward: 0.22636326470011103, Done: False
+Step: 46, Action: [-0.234714  1.      ], Reward: 0.2478853531181284, Done: False
+Step: 47, Action: [-0.14040354  1.        ], Reward: 0.27811721331933253, Done: False
+Step: 48, Action: [-0.0787003  1.       ], Reward: 0.3083874201191796, Done: False
+Step: 49, Action: [1. 1.], Reward: 0.32803122943266905, Done: False
+Step: 50, Action: [-0.24636348  1.        ], Reward: 0.3272482833309837, Done: False
+Step: 51, Action: [0.5296434 1.       ], Reward: 0.3363837063473864, Done: False
+Step: 52, Action: [0.36351165 1.        ], Reward: 0.35450212763033695, Done: False
+Step: 53, Action: [-0.02212924  1.        ], Reward: 0.3789331783991987, Done: False
+Step: 54, Action: [1. 1.], Reward: 0.39175619537618983, Done: False
+Step: 55, Action: [1. 1.], Reward: 0.38660368257321986, Done: False
+Step: 56, Action: [1. 1.], Reward: 0.3786999686463373, Done: False
+Step: 57, Action: [0.8351436 1.       ], Reward: 0.37409805773202626, Done: False
+Step: 58, Action: [-0.39201194  1.        ], Reward: 0.37885023840403464, Done: False
+Step: 59, Action: [-0.12507065  0.4761653 ], Reward: 0.38372060638693517, Done: False
+Step: 60, Action: [-0.4507449  1.       ], Reward: 0.3912503422262529, Done: False
+Step: 61, Action: [-0.54223907  0.3306291 ], Reward: 0.3945671233942259, Done: False
+Step: 62, Action: [ 0.43208373 -0.03861213], Reward: 0.38351305491456755, Done: False
+Step: 63, Action: [-0.35506144  1.        ], Reward: 0.37459855909069645, Done: False
+Step: 64, Action: [-0.21770245  0.67312396], Reward: 0.3932178422036639, Done: False
+Step: 65, Action: [0.49022263 1.        ], Reward: 0.4088260321946859, Done: False
+Step: 66, Action: [-0.6028021  1.       ], Reward: 0.412360141436901, Done: False
+Step: 67, Action: [-0.3494024   0.15273917], Reward: 0.4074252522638673, Done: False
+Step: 68, Action: [0.08851104 1.        ], Reward: 0.41065081030483935, Done: False
+Step: 69, Action: [0.09516148 1.        ], Reward: 0.43831352296631276, Done: False
+Step: 70, Action: [0.3605938 1.       ], Reward: 0.46467894429255546, Done: False
+Step: 71, Action: [-0.07462534  1.        ], Reward: 0.48381867291559133, Done: False
+Step: 72, Action: [0.7036236 0.7570765], Reward: 0.49645833832884134, Done: False
+Step: 73, Action: [0.8536786 1.       ], Reward: 0.49074382142188727, Done: False
+Step: 74, Action: [-0.18949477  1.        ], Reward: 0.48665412651113515, Done: False
+Step: 75, Action: [0.38629115 1.        ], Reward: 0.49803099385067223, Done: False
+Step: 76, Action: [-0.23873442  1.        ], Reward: 0.5103601592238863, Done: False
+Step: 77, Action: [0.93982995 1.        ], Reward: 0.5159735432971662, Done: False
+Step: 78, Action: [-0.04361825  1.        ], Reward: 0.5128378679978328, Done: False
+Step: 79, Action: [0.6593119 1.       ], Reward: 0.5301702082590302, Done: False
+Step: 80, Action: [0.48675448 1.        ], Reward: 0.5265485647117668, Done: False
+Step: 81, Action: [0.15704206 1.        ], Reward: 0.5357937913005408, Done: False
+Step: 82, Action: [-1.  1.], Reward: 0.5542139319589602, Done: False
+Step: 83, Action: [-0.31174645  1.        ], Reward: 0.552558046307056, Done: False
+Step: 84, Action: [-0.7358959  1.       ], Reward: 0.565815170613003, Done: False
+Step: 85, Action: [-0.38602367  1.        ], Reward: 0.5728715712749173, Done: False
+Step: 86, Action: [0.3111201 1.       ], Reward: 0.5910270190993647, Done: False
+Step: 87, Action: [-0.39949757  1.        ], Reward: 0.5989960729184979, Done: False
+Step: 88, Action: [0.10213307 1.        ], Reward: 0.6112557020206737, Done: False
+Step: 89, Action: [-0.10874186  1.        ], Reward: 0.6326102615926467, Done: False
+Step: 90, Action: [0.58335674 1.        ], Reward: 0.6518355061754358, Done: False
+Step: 91, Action: [0.5107552 1.       ], Reward: 0.653474666083692, Done: False
+Step: 92, Action: [-0.5407575  -0.08646441], Reward: 0.6472632160718782, Done: False
+Step: 93, Action: [0.990155 1.      ], Reward: 0.6218077404046914, Done: False
+Step: 94, Action: [-0.19348708  1.        ], Reward: 0.6100425482661278, Done: False
+Step: 95, Action: [0.6254914 1.       ], Reward: 0.6196384681977818, Done: False
+Step: 96, Action: [-1.  1.], Reward: 0.6129768823259264, Done: False
+Step: 97, Action: [-0.18039802  0.6403792 ], Reward: 0.6061431201648544, Done: False
+Step: 98, Action: [-0.26145062  1.        ], Reward: 0.6222426751922916, Done: False
+Step: 99, Action: [-0.1681902  1.       ], Reward: 0.6466991145070877, Done: False
+Step: 100, Action: [-0.46535766  1.        ], Reward: 0.6679144756867705, Done: False
+Step: 101, Action: [1. 1.], Reward: 0.6658314492341564, Done: False
+Step: 102, Action: [0.3750124  0.26475525], Reward: 0.6546777303332765, Done: False
+Step: 103, Action: [-1.  1.], Reward: 0.6448158826427512, Done: False
+Step: 104, Action: [0.10793623 1.        ], Reward: 0.6358855549884216, Done: False
+Step: 105, Action: [-0.73467374  1.        ], Reward: 0.6523089075057508, Done: False
+Step: 106, Action: [0.2769982 1.       ], Reward: 0.6496422771378173, Done: False
+Step: 107, Action: [1. 1.], Reward: 0.6575395979967641, Done: False
+Step: 108, Action: [-0.18940714  1.        ], Reward: 0.65172828800367, Done: False
+Step: 109, Action: [-0.7782824  1.       ], Reward: 0.6554410715846611, Done: False
+Step: 110, Action: [ 0.5701393  -0.12007785], Reward: 0.6381292172556974, Done: False
+Step: 111, Action: [0.5044736 1.       ], Reward: 0.6187919601352455, Done: False
+Step: 112, Action: [-0.21010281  1.        ], Reward: 0.6232842520188381, Done: False
+Step: 113, Action: [0.6693188 1.       ], Reward: 0.6300989930114677, Done: False
+Step: 114, Action: [0.25480232 1.        ], Reward: 0.635150834794004, Done: False
+Step: 115, Action: [0.13370487 1.        ], Reward: 0.660067696972659, Done: False
+Step: 116, Action: [0.00977084 1.        ], Reward: 0.6891747980481768, Done: False
+Step: 117, Action: [-0.38847107  1.        ], Reward: 0.7122358896543894, Done: False
+Step: 118, Action: [0.9653025 1.       ], Reward: 0.7292122748106324, Done: False
+Step: 119, Action: [-0.6927453  1.       ], Reward: 0.7148477679838348, Done: False
+Step: 120, Action: [0.11585453 1.        ], Reward: 0.7139067285236131, Done: False
+Step: 121, Action: [0.71496844 1.        ], Reward: 0.7257287673968917, Done: False
+Step: 122, Action: [-0.12375134  1.        ], Reward: 0.7236272008648297, Done: False
+Step: 123, Action: [0.39361742 1.        ], Reward: 0.7373785138515457, Done: False
+Step: 124, Action: [0.14436173 1.        ], Reward: 0.743024967181468, Done: False
+Step: 125, Action: [0.18343285 1.        ], Reward: 0.761600807763433, Done: False
+Step: 126, Action: [-0.13874733  1.        ], Reward: 0.7767659095119919, Done: False
+Step: 127, Action: [-1.  1.], Reward: 0.7864236601234644, Done: False
+Step: 128, Action: [-1.  1.], Reward: 0.7741892727806187, Done: False
+Step: 129, Action: [-0.9168384  1.       ], Reward: 0.7625604978171423, Done: False
+Step: 130, Action: [-0.26800418  1.        ], Reward: 0.7646042512951938, Done: False
+Step: 131, Action: [-0.06566975  1.        ], Reward: 0.7905639884890092, Done: False
+Step: 132, Action: [0.82201886 1.        ], Reward: 0.8052398009955019, Done: False
+Step: 133, Action: [-0.4436668  1.       ], Reward: 0.7959418666196967, Done: False
+Step: 134, Action: [-1.  1.], Reward: 0.7954572463968775, Done: False
+Step: 135, Action: [-1.  1.], Reward: 0.7810954502449807, Done: False
+Step: 136, Action: [-0.2630614  1.       ], Reward: 0.7777371756562447, Done: False
+Step: 137, Action: [-1.  1.], Reward: 0.7926033373797889, Done: False
+Step: 138, Action: [-0.58309203  1.        ], Reward: 0.7846839301882571, Done: False
+Step: 139, Action: [-1.  1.], Reward: 0.7789334802086159, Done: False
+Step: 140, Action: [0.68895423 1.        ], Reward: 0.7648830205695607, Done: False
+Step: 141, Action: [-0.544413   0.8892406], Reward: 0.7610539845843421, Done: False
+Step: 142, Action: [0.24601576 1.        ], Reward: 0.7594433458122449, Done: False
+Step: 143, Action: [0.0618861 1.       ], Reward: 0.7831000008751237, Done: False
+Step: 144, Action: [-0.95325375  1.        ], Reward: 0.8036607792558531, Done: False
+Step: 145, Action: [1. 1.], Reward: 0.7913416027126087, Done: False
+Step: 146, Action: [-0.53111565  1.        ], Reward: 0.7830406987116704, Done: False
+Step: 147, Action: [-0.42879727  1.        ], Reward: 0.778348297360583, Done: False
+Step: 148, Action: [-0.07989338  1.        ], Reward: 0.7879972452480846, Done: False
+Step: 149, Action: [-0.3857944  1.       ], Reward: 0.8129152445978772, Done: False
+Step: 150, Action: [-0.18902108  1.        ], Reward: 0.7736369632269717, Done: False
+Step: 151, Action: [-0.05079904  1.        ], Reward: 0.800837568527737, Done: False
+Step: 152, Action: [-0.38053513  1.        ], Reward: 0.8261411006150797, Done: False
+Step: 153, Action: [0.48705125 1.        ], Reward: 0.8310400669924611, Done: False
+Step: 154, Action: [0.4422189  0.45289397], Reward: 0.8441727891733333, Done: False
+Step: 155, Action: [-1.  1.], Reward: 0.8455088152833842, Done: False
+Step: 156, Action: [0.00638583 0.9904133 ], Reward: 0.8412076835986481, Done: False
+Step: 157, Action: [0.5017323 1.       ], Reward: 0.867387064459521, Done: False
+Step: 158, Action: [0.05579016 1.        ], Reward: 0.8864053239530458, Done: False
+Step: 159, Action: [0.09385836 0.21634638], Reward: 0.912500131322987, Done: False
+Step: 160, Action: [-0.15798114  1.        ], Reward: 0.9250187118441161, Done: False
+Step: 161, Action: [0.79055977 1.        ], Reward: 0.934844946556768, Done: False
+Step: 162, Action: [0.36396438 1.        ], Reward: 0.9335923083885289, Done: False
+Step: 163, Action: [0.72812724 1.        ], Reward: 0.9357348808174332, Done: False
+Step: 164, Action: [0.6404082 1.       ], Reward: 0.92363021807057, Done: False
+Step: 165, Action: [-0.12635055  1.        ], Reward: 0.9150648844560003, Done: False
+Step: 166, Action: [-0.71761096  1.        ], Reward: 0.9203876685083971, Done: False
+Step: 167, Action: [-0.27189502  1.        ], Reward: 0.919266521431465, Done: False
+Step: 168, Action: [-0.5993955  1.       ], Reward: 0.9309957795439625, Done: False
+Step: 169, Action: [-0.3414642  1.       ], Reward: 0.9382366330409138, Done: False
+Step: 170, Action: [-0.50074965  1.        ], Reward: 0.9524552043533635, Done: False
+Step: 171, Action: [0.5937912 1.       ], Reward: 0.9568288817995354, Done: False
+Step: 172, Action: [1.        0.8536451], Reward: 0.9477166932441043, Done: False
+Step: 173, Action: [-0.55040133  1.        ], Reward: 0.9297360898664444, Done: False
+Step: 174, Action: [-0.586521  0.748278], Reward: 0.9255370077860049, Done: False
+Step: 175, Action: [-0.04104962  1.        ], Reward: 0.9289043022475825, Done: False
+Step: 176, Action: [-0.44539532  1.        ], Reward: 0.9493775230638419, Done: False
+Step: 177, Action: [-0.41988975  0.4744873 ], Reward: 0.9526099638603781, Done: False
+Step: 178, Action: [0.49265087 1.        ], Reward: 0.9503342248367872, Done: False
+Step: 179, Action: [1. 1.], Reward: 0.9460472677335011, Done: False
+Step: 180, Action: [-0.68195856  1.        ], Reward: 0.9301986054835532, Done: False
+Step: 181, Action: [-1.  1.], Reward: 0.9191257045136622, Done: False
+Step: 182, Action: [-0.08082122  1.        ], Reward: 0.9147199588102749, Done: False
+Step: 183, Action: [0.45568806 1.        ], Reward: 0.93489024853567, Done: False
+Step: 184, Action: [0.45441225 1.        ], Reward: 0.9373236147858031, Done: False
+Step: 185, Action: [0.30997473 0.5013397 ], Reward: 0.93443793123307, Done: False
+Step: 186, Action: [-0.36377063  1.        ], Reward: 0.9283350031790583, Done: False
+Step: 187, Action: [-0.16586888  1.        ], Reward: 0.9344157898630734, Done: False
+Step: 188, Action: [0.17321427 1.        ], Reward: 0.9485471700144189, Done: False
+Step: 189, Action: [0.67909926 1.        ], Reward: 0.9455701416668425, Done: False
+Step: 190, Action: [-0.21409394 -0.20237112], Reward: 0.9217976712828667, Done: False
+Step: 191, Action: [0.88812655 1.        ], Reward: 0.9489060302963437, Done: False
+Step: 192, Action: [-0.10907911  1.        ], Reward: 0.9270408877284244, Done: False
+Step: 193, Action: [-0.01498514  1.        ], Reward: 0.9478186114466276, Done: False
+Step: 194, Action: [-0.6274586  1.       ], Reward: 0.9613680649101031, Done: False
+Step: 195, Action: [0.01489706 1.        ], Reward: 0.9652629217595269, Done: False
+Step: 196, Action: [0.14778876 1.        ], Reward: 0.972953324056918, Done: False
+Step: 197, Action: [-0.36905846  1.        ], Reward: 0.9707188297369814, Done: False
+Step: 198, Action: [-0.6741  1.    ], Reward: 0.9734314262575202, Done: False
+Step: 199, Action: [-1.  1.], Reward: 0.9689402517119003, Done: False
+Step: 200, Action: [0.14846942 0.7490829 ], Reward: 0.9588222578677851, Done: False
+Step: 201, Action: [-0.19428968  1.        ], Reward: 0.9565454667327838, Done: False
+Step: 202, Action: [-1.  1.], Reward: 0.9679134786749054, Done: False
+Step: 203, Action: [0.40801314 1.        ], Reward: 1.0151211859985514, Done: False
+Step: 204, Action: [-1.          0.70931935], Reward: 0.9979897668824043, Done: False
+Step: 205, Action: [-0.26515794  0.97391593], Reward: 0.9893943543422782, Done: False
+Step: 206, Action: [0.24343303 1.        ], Reward: 1.0014002949585346, Done: False
+Step: 207, Action: [-0.3877919  0.8131026], Reward: 0.9990279657998327, Done: False
+Step: 208, Action: [-0.87320936  1.        ], Reward: 1.0015252408731188, Done: False
+Step: 209, Action: [0.05261168 1.        ], Reward: 0.9985182873065883, Done: False
+Step: 210, Action: [0.40775144 1.        ], Reward: -5.0, Done: True
+Step: 211, Action: [-1.  1.], Reward: 0.007401988338714265, Done: False
+Step: 212, Action: [3.249884e-04 1.000000e+00], Reward: 0.03374483861390056, Done: False
+Step: 213, Action: [-0.8260086  1.       ], Reward: 0.060391936064293425, Done: False
+Step: 214, Action: [-0.08467609  1.        ], Reward: 0.08359230286291351, Done: False
+Step: 215, Action: [0.7225653 1.       ], Reward: 0.1084004958095534, Done: False
+Step: 216, Action: [-0.82915384  1.        ], Reward: 0.11670361021434501, Done: False
+Step: 217, Action: [-0.41215637  1.        ], Reward: 0.12397366544260954, Done: False
+Step: 218, Action: [0.49291226 1.        ], Reward: 0.14619550290132566, Done: False
+Step: 219, Action: [-0.8326353  1.       ], Reward: 0.15659880358931388, Done: False
+Step: 220, Action: [-0.47087118  1.        ], Reward: 0.1620329055723907, Done: False
+Step: 221, Action: [-0.733946  1.      ], Reward: 0.18353869309882848, Done: False
+Step: 222, Action: [0.54939747 1.        ], Reward: 0.1954658893268035, Done: False
+Step: 223, Action: [-0.49579024  1.        ], Reward: 0.20521803997445778, Done: False
+Step: 224, Action: [-0.40216732  1.        ], Reward: 0.22647508950218953, Done: False
+Step: 225, Action: [0.70619744 1.        ], Reward: 0.24666016229749838, Done: False
+Step: 226, Action: [1. 1.], Reward: 0.2478856844038439, Done: False
+Step: 227, Action: [-0.16889895  1.        ], Reward: 0.24675743510941467, Done: False
+Step: 228, Action: [-0.87814295  1.        ], Reward: 0.25636006324127336, Done: False
+Step: 229, Action: [-0.278431   0.9734497], Reward: 0.25553827939070084, Done: False
+Step: 230, Action: [0.3771245 1.       ], Reward: 0.279794758138345, Done: False
+Step: 231, Action: [0.31113398 1.        ], Reward: 0.30165866207453756, Done: False
+Step: 232, Action: [-0.32354346  1.        ], Reward: 0.3240075912733415, Done: False
+Step: 233, Action: [1. 1.], Reward: 0.3274875736836114, Done: False
+Step: 234, Action: [-0.2480015   0.31190062], Reward: 0.31994089338086473, Done: False
+Step: 235, Action: [-0.7338431  1.       ], Reward: 0.3131836178632818, Done: False
+Step: 236, Action: [-0.35357526  1.        ], Reward: 0.313689312549041, Done: False
+Step: 237, Action: [1. 1.], Reward: 0.33085807859086586, Done: False
+Step: 238, Action: [-0.12131876  1.        ], Reward: 0.335706921041959, Done: False
+Step: 239, Action: [-0.547374  1.      ], Reward: 0.3537298731940751, Done: False
+Step: 240, Action: [0.3375113 1.       ], Reward: 0.3559167450699521, Done: False
+Step: 241, Action: [0.68425626 1.        ], Reward: 0.3722486204795228, Done: False
+Step: 242, Action: [-0.74828666  0.17917669], Reward: 0.370126870860769, Done: False
+Step: 243, Action: [1. 1.], Reward: 0.34558358129290934, Done: False
+Step: 244, Action: [1. 1.], Reward: 0.33899779941519353, Done: False
+Step: 245, Action: [0.75367785 1.        ], Reward: 0.33919947005113754, Done: False
+Step: 246, Action: [0.5554881 1.       ], Reward: 0.35734879903141, Done: False
+Step: 247, Action: [-0.5376822  1.       ], Reward: 0.37777209182000665, Done: False
+Step: 248, Action: [-0.25653413  1.        ], Reward: 0.3805770115278529, Done: False
+Step: 249, Action: [1.         0.84080684], Reward: 0.385102715015435, Done: False
+Step: 250, Action: [1. 1.], Reward: 0.3718367524644842, Done: False
+Step: 251, Action: [1. 1.], Reward: 0.3574111691715949, Done: False
+Step: 252, Action: [-0.31081796  0.7867166 ], Reward: 0.34783671501304786, Done: False
+Step: 253, Action: [0.20768018 1.        ], Reward: 0.3604159808660282, Done: False
+Step: 254, Action: [0.48077607 1.        ], Reward: 0.38429495464740987, Done: False
+Step: 255, Action: [-0.48130244  1.        ], Reward: 0.39439964069013894, Done: False
+Step: 256, Action: [0.6327851 1.       ], Reward: 0.39876471296555, Done: False
+Step: 257, Action: [-0.27062666  0.91433585], Reward: 0.39804863443408695, Done: False
+Step: 258, Action: [0.43017757 1.        ], Reward: 0.4105447675636964, Done: False
+Step: 259, Action: [0.04715128 1.        ], Reward: 0.42158592598294164, Done: False
+Step: 260, Action: [0.64791924 1.        ], Reward: 0.4426499088159811, Done: False
+Step: 261, Action: [0.24770115 1.        ], Reward: 0.4438616317666915, Done: False
+Step: 262, Action: [-0.07185733  1.        ], Reward: 0.46936832444741944, Done: False
+Step: 263, Action: [-1.  1.], Reward: 0.4924848547570197, Done: False
+Step: 264, Action: [-0.01094146  1.        ], Reward: 0.49706026063459674, Done: False
+Step: 265, Action: [0.22371295 1.        ], Reward: 0.5163485022605868, Done: False
+Step: 266, Action: [0.41236675 1.        ], Reward: 0.5221538677469021, Done: False
+Step: 267, Action: [0.25621262 1.        ], Reward: 0.5263653206753939, Done: False
+Step: 268, Action: [-0.43359235  1.        ], Reward: 0.5450545542486646, Done: False
+Step: 269, Action: [-1.  1.], Reward: 0.5560518524628022, Done: False
+Step: 270, Action: [-0.33772308  1.        ], Reward: 0.5630831696367978, Done: False
+Step: 271, Action: [0.6908454 1.       ], Reward: 0.5820180911263944, Done: False
+Step: 272, Action: [-0.23624969  1.        ], Reward: 0.5819333363198675, Done: False
+Step: 273, Action: [-0.5178297  1.       ], Reward: 0.6105018510020442, Done: False
+Step: 274, Action: [0.5233122 1.       ], Reward: 0.6226684547686412, Done: False
+Step: 275, Action: [-0.5792584   0.84775615], Reward: 0.6203146985053293, Done: False
+Step: 276, Action: [-1.  1.], Reward: 0.6231477463786314, Done: False
+Step: 277, Action: [-0.89424384  1.        ], Reward: 0.6160959387985129, Done: False
+Step: 278, Action: [0.25087938 1.        ], Reward: 0.6133517318350652, Done: False
+Step: 279, Action: [-0.22538194  1.        ], Reward: 0.6266557061537498, Done: False
+Step: 280, Action: [-1.  1.], Reward: 0.6429273230050251, Done: False
+Step: 281, Action: [-0.43272418  1.        ], Reward: 0.6366641470804957, Done: False
+Step: 282, Action: [0.41697228 1.        ], Reward: 0.6442879829810713, Done: False
+Step: 283, Action: [0.3042965 1.       ], Reward: 0.6534771633410074, Done: False
+Step: 284, Action: [-0.78444225  1.        ], Reward: 0.6603206687116885, Done: False
+Step: 285, Action: [-0.1822959  1.       ], Reward: 0.656452306995157, Done: False
+Step: 286, Action: [-0.748379  1.      ], Reward: 0.6671856304947916, Done: False
+Step: 287, Action: [0.41992292 1.        ], Reward: 0.6595722190947272, Done: False
+Step: 288, Action: [0.8387788 1.       ], Reward: 0.6660250589711231, Done: False
+Step: 289, Action: [0.7181126 1.       ], Reward: 0.6650087942189853, Done: False
+Step: 290, Action: [0.67505074 1.        ], Reward: 0.6684388030417774, Done: False
+Step: 291, Action: [0.6374241 1.       ], Reward: 0.6742614116840112, Done: False
+Step: 292, Action: [1. 1.], Reward: 0.6758994646086544, Done: False
+Step: 293, Action: [0.55838823 1.        ], Reward: 0.6697247599120707, Done: False
+Step: 294, Action: [-0.50096714  1.        ], Reward: 0.6732886299071466, Done: False
+Step: 295, Action: [0.832942 1.      ], Reward: 0.670515305914399, Done: False
+Step: 296, Action: [-1.  1.], Reward: 0.652565456030254, Done: False
+Step: 297, Action: [-0.47269708  1.        ], Reward: 0.6452425553042846, Done: False
+Step: 298, Action: [0.6281677  0.07851458], Reward: 0.64408736170872, Done: False
+Step: 299, Action: [-0.14609447  1.        ], Reward: 0.6319180406384842, Done: False
+Step: 300, Action: [0.71836984 0.29206812], Reward: 0.6463209931748433, Done: False
+Step: 301, Action: [0.13744918 1.        ], Reward: 0.6347293426169073, Done: False
+Step: 302, Action: [1. 1.], Reward: 0.6433257886299141, Done: False
+Step: 303, Action: [-1.  1.], Reward: 0.6242917361157334, Done: False
+Step: 304, Action: [0.54911804 1.        ], Reward: 0.6145124823833973, Done: False
+Step: 305, Action: [-0.59040713  1.        ], Reward: 0.6049563525635289, Done: False
+Step: 306, Action: [0.14457372 1.        ], Reward: 0.6136576458055841, Done: False
+Step: 307, Action: [0.10844111 1.        ], Reward: 0.6302426357715711, Done: False
+Step: 308, Action: [0.14316815 1.        ], Reward: 0.6519727093569918, Done: False
+Step: 309, Action: [0.12603927 1.        ], Reward: -5.0, Done: True
+Step: 310, Action: [-0.01845664  1.        ], Reward: 0.007870761436693168, Done: False
+Step: 311, Action: [-0.43697682  1.        ], Reward: 0.035003487241485685, Done: False
+Step: 312, Action: [-0.50745887  1.        ], Reward: 0.06191407232437615, Done: False
+Step: 313, Action: [-0.41858876  1.        ], Reward: 0.08871808482972322, Done: False
+Step: 314, Action: [-0.6117767  1.       ], Reward: 0.11490519041984756, Done: False
+Step: 315, Action: [-0.38209143  1.        ], Reward: 0.1401191158157792, Done: False
+Step: 316, Action: [-1.  1.], Reward: 0.15997239692422993, Done: False
+Step: 317, Action: [0.05158406 1.        ], Reward: 0.16496221648672146, Done: False
+Step: 318, Action: [-0.02771929  1.        ], Reward: 0.193130609559919, Done: False
+Step: 319, Action: [-0.98683155 -0.11085224], Reward: 0.2022989134571378, Done: False
+Step: 320, Action: [-0.52739954  1.        ], Reward: 0.17589843501994679, Done: False
+Step: 321, Action: [0.5652948 1.       ], Reward: 0.1916681303364211, Done: False
+Step: 322, Action: [0.12017718 0.7909237 ], Reward: 0.20497285018837771, Done: False
+Step: 323, Action: [-1.  1.], Reward: 0.21655872624269742, Done: False
+Step: 324, Action: [-1.  1.], Reward: 0.20013724049516368, Done: False
+Step: 325, Action: [-0.33520165  1.        ], Reward: 0.19709889466895003, Done: False
+Step: 326, Action: [-0.352995  1.      ], Reward: 0.22806448136456686, Done: False
+Step: 327, Action: [0.09685043 1.        ], Reward: 0.2560572133018124, Done: False
+Step: 328, Action: [0.596161   0.82087576], Reward: 0.28149781907378574, Done: False
+Step: 329, Action: [-0.2930949  1.       ], Reward: 0.28959429747046694, Done: False
+Step: 330, Action: [-0.6904958  1.       ], Reward: 0.28877755301209046, Done: False
+Step: 331, Action: [0.30239424 1.        ], Reward: 0.2844213149739354, Done: False
+Step: 332, Action: [0.37817731 1.        ], Reward: 0.30657901786858055, Done: False
+Step: 333, Action: [0.9463631 1.       ], Reward: 0.3255288266177442, Done: False
+Step: 334, Action: [-0.89568245  0.74566877], Reward: 0.31886687311079454, Done: False
+Step: 335, Action: [1. 1.], Reward: 0.3003482983011913, Done: False
+Step: 336, Action: [-1.  1.], Reward: 0.28740313741596313, Done: False
+Step: 337, Action: [1. 1.], Reward: 0.26844905923871165, Done: False
+Step: 338, Action: [0.51950216 1.        ], Reward: 0.268832694153652, Done: False
+Step: 339, Action: [-0.5578848  1.       ], Reward: 0.28578002951465753, Done: False
+Step: 340, Action: [-0.16820215  1.        ], Reward: 0.29170683694667054, Done: False
+Step: 341, Action: [-0.4211588  1.       ], Reward: 0.3113165494425235, Done: False
+Step: 342, Action: [-1.  1.], Reward: 0.3185911253961146, Done: False
+Step: 343, Action: [-1.  1.], Reward: 0.3036488255089309, Done: False
+Step: 344, Action: [0.48786104 1.        ], Reward: 0.2927621468165281, Done: False
+Step: 345, Action: [-0.40956086  1.        ], Reward: 0.30392099160133024, Done: False
+Step: 346, Action: [0.38138634 1.        ], Reward: 0.32352854876358333, Done: False
+Step: 347, Action: [0.19685356 1.        ], Reward: 0.34462248796588363, Done: False
+Step: 348, Action: [0.08881626 1.        ], Reward: 0.37366641466856937, Done: False
+Step: 349, Action: [-0.2993684  1.       ], Reward: 0.3944026609976117, Done: False
+Step: 350, Action: [-0.6263321  1.       ], Reward: 0.3944175332273081, Done: False
+Step: 351, Action: [0.39378625 0.26022255], Reward: 0.38519646656413986, Done: False
+Step: 352, Action: [0.20290709 0.49098206], Reward: 0.39249654059342115, Done: False
+Step: 353, Action: [0.3137005 1.       ], Reward: 0.4140586377798362, Done: False
+Step: 354, Action: [0.55490017 1.        ], Reward: 0.44056846551142925, Done: False
+Step: 355, Action: [0.84979266 1.        ], Reward: 0.45568959567376705, Done: False
+Step: 356, Action: [-1.  1.], Reward: 0.4522546927504326, Done: False
+Step: 357, Action: [1. 1.], Reward: 0.43515302530723016, Done: False
+Step: 358, Action: [0.51418835 1.        ], Reward: 0.43242936586375036, Done: False
+Step: 359, Action: [-0.532362  1.      ], Reward: 0.44707540819195324, Done: False
+Step: 360, Action: [-0.11633363  0.7490493 ], Reward: 0.45198806995632373, Done: False
+Step: 361, Action: [-0.08955605  0.93424666], Reward: 0.4713713872643552, Done: False
+Step: 362, Action: [-0.02064187  0.5869204 ], Reward: 0.49499526600668886, Done: False
+Step: 363, Action: [-0.02516511  1.        ], Reward: 0.5155063977869929, Done: False
+Step: 364, Action: [0.551737  0.1932714], Reward: 0.531921527602317, Done: False
+Step: 365, Action: [-1.  1.], Reward: 0.5172295420819514, Done: False
+Step: 366, Action: [0.28203374 1.        ], Reward: 0.5077383230137247, Done: False
+Step: 367, Action: [0.9107141 1.       ], Reward: 0.5128053510583689, Done: False
+Step: 368, Action: [1. 1.], Reward: 0.4965683926856315, Done: False
+Step: 369, Action: [0.9877408 1.       ], Reward: 0.4752769181809929, Done: False
+Step: 370, Action: [-1.        0.776122], Reward: 0.45329100126874206, Done: False
+Step: 371, Action: [-0.5487438  1.       ], Reward: 0.4438357756307033, Done: False
+Step: 372, Action: [0.0561581 1.       ], Reward: 0.45570171902013423, Done: False
+Step: 373, Action: [-1.  1.], Reward: 0.4720097408047771, Done: False
+Step: 374, Action: [-0.23066878  0.82299995], Reward: 0.4764472958604068, Done: False
+Step: 375, Action: [1.         0.51626384], Reward: 0.4855838637937315, Done: False
+Step: 376, Action: [-0.5728851  1.       ], Reward: 0.4676479889284245, Done: False
+Step: 377, Action: [-0.49208382  1.        ], Reward: 0.47868496990966203, Done: False
+Step: 378, Action: [0.07510999 1.        ], Reward: 0.4958952602216455, Done: False
+Step: 379, Action: [-0.29440755  1.        ], Reward: 0.5126841582017237, Done: False
+Step: 380, Action: [0.22844318 1.        ], Reward: 0.5336711714774648, Done: False
+Step: 381, Action: [-1.  1.], Reward: 0.5374404318737986, Done: False
+Step: 382, Action: [-0.67056906  1.        ], Reward: 0.529115703565478, Done: False
+Step: 383, Action: [0.1808396 1.       ], Reward: 0.5304913587524204, Done: False
+Step: 384, Action: [-0.7567152  1.       ], Reward: 0.5373616526274914, Done: False
+Step: 385, Action: [0.48175108 1.        ], Reward: 0.532690321672737, Done: False
+Step: 386, Action: [-0.20172021  1.        ], Reward: 0.5387769320199158, Done: False
+Step: 387, Action: [-0.66854465  1.        ], Reward: 0.552951183849912, Done: False
+Step: 388, Action: [-0.47551173  1.        ], Reward: 0.5511141277257621, Done: False
+Step: 389, Action: [0.03509708 1.        ], Reward: 0.5604693010498013, Done: False
+Step: 390, Action: [ 0.50461775 -0.1737504 ], Reward: 0.569375261409407, Done: False
+Step: 391, Action: [0.62310284 1.        ], Reward: 0.5498360493544489, Done: False
+Step: 392, Action: [1.        0.7442399], Reward: 0.5455503910405057, Done: False
+Step: 393, Action: [-1.         0.8031467], Reward: 0.5277334514006246, Done: False
+Step: 394, Action: [-0.27088308  1.        ], Reward: 0.5139743300333617, Done: False
+Step: 395, Action: [-0.15002166  1.        ], Reward: 0.5267031158130183, Done: False
+Step: 396, Action: [-0.4786583  1.       ], Reward: 0.5454905787825078, Done: False
+Step: 397, Action: [-1.  1.], Reward: 0.5422671011176071, Done: False
+Step: 398, Action: [-0.01577131  0.22233367], Reward: 0.5302813578535334, Done: False
+Step: 399, Action: [-0.65787685  1.        ], Reward: 0.5337631205914961, Done: False
+Step: 400, Action: [0.5850259 1.       ], Reward: 0.523958589551021, Done: False
+Step: 401, Action: [0.29916978 0.43440616], Reward: 0.529044341714498, Done: False
+Step: 402, Action: [0.03427469 1.        ], Reward: 0.5426636581017809, Done: False
+Step: 403, Action: [-0.18235563  0.69588315], Reward: 0.5613311176826342, Done: False
+Step: 404, Action: [0.69024944 1.        ], Reward: 0.5652785875580658, Done: False
+Step: 405, Action: [1. 1.], Reward: 0.5654476895109547, Done: False
+Step: 406, Action: [-1.  1.], Reward: 0.5523150818834537, Done: False
+Step: 407, Action: [-0.09937628  1.        ], Reward: 0.540404773332265, Done: False
+Step: 408, Action: [0.2641738 1.       ], Reward: 0.5605819976430126, Done: False
+Step: 409, Action: [-0.11333417  1.        ], Reward: 0.5804657984939253, Done: False
+Step: 410, Action: [0.4534218 1.       ], Reward: 0.5963391533973698, Done: False
+Step: 411, Action: [-0.81557465  1.        ], Reward: 0.6006230498222302, Done: False
+Step: 412, Action: [-0.8973701  1.       ], Reward: 0.5822214671307206, Done: False
+Step: 413, Action: [-0.4785511  1.       ], Reward: 0.5632247615936656, Done: False
+Step: 414, Action: [0.4350084 1.       ], Reward: 0.5595480810008622, Done: False
+Step: 415, Action: [0.9456982 1.       ], Reward: 0.5653654530156718, Done: False
+Step: 416, Action: [-0.02513158  1.        ], Reward: 0.5678174607297503, Done: False
+Step: 417, Action: [-0.8471791  1.       ], Reward: 0.5783727750486473, Done: False
+Step: 418, Action: [0.6874474 1.       ], Reward: 0.5647171185365146, Done: False
+Step: 419, Action: [0.22600827 1.        ], Reward: 0.5764802100461306, Done: False
+Step: 420, Action: [-0.6666019  1.       ], Reward: 0.5953598053357957, Done: False
+Step: 421, Action: [1. 1.], Reward: 0.5843158441517053, Done: False
+Step: 422, Action: [-0.14030863  1.        ], Reward: 0.5631556189469287, Done: False
+Step: 423, Action: [-0.59422624  1.        ], Reward: 0.5695235747117536, Done: False
+Step: 424, Action: [0.2857868 1.       ], Reward: 0.5692795089383277, Done: False
+Step: 425, Action: [0.51972044 1.        ], Reward: 0.588510866611508, Done: False
+Step: 426, Action: [-0.24497592  1.        ], Reward: 0.6004591008372233, Done: False
+Step: 427, Action: [-0.8980014  1.       ], Reward: 0.5995493466857035, Done: False
+Step: 428, Action: [0.7778868 1.       ], Reward: 0.5861576941363174, Done: False
+Step: 429, Action: [-0.16550885  1.        ], Reward: 0.5905000350970613, Done: False
+Step: 430, Action: [-0.28655025  1.        ], Reward: 0.6055087935688598, Done: False
+Step: 431, Action: [1. 1.], Reward: 0.6124713338047979, Done: False
+Step: 432, Action: [-0.06339438  1.        ], Reward: 0.6186230553445352, Done: False
+Step: 433, Action: [0.7440163 1.       ], Reward: 0.6402959091282424, Done: False
+Step: 434, Action: [-0.7980982  1.       ], Reward: 0.641246653110061, Done: False
+Step: 435, Action: [-0.22434083  0.8030256 ], Reward: -5.0, Done: True
+Step: 436, Action: [-0.54683113  1.        ], Reward: 0.0076017230016854065, Done: False
+Step: 437, Action: [-0.6381632  1.       ], Reward: 0.03385105756241595, Done: False
+Step: 438, Action: [-0.6119526  1.       ], Reward: 0.06017225876567017, Done: False
+Step: 439, Action: [-1.  1.], Reward: 0.08172002003281091, Done: False
+Step: 440, Action: [-0.4681954  1.       ], Reward: 0.10067078817144372, Done: False
+Step: 441, Action: [0.05212873 1.        ], Reward: 0.1314714555204925, Done: False
+Step: 442, Action: [-1.  1.], Reward: 0.14986930419251174, Done: False
+Step: 443, Action: [ 0.18348607 -0.58875513], Reward: 0.11901034479514964, Done: False
+Step: 444, Action: [-0.13085523  1.        ], Reward: 0.06278762054445339, Done: False
+Step: 445, Action: [-0.9567045  1.       ], Reward: 0.07934450555247771, Done: False
+Step: 446, Action: [-1.  1.], Reward: 0.08749577458109738, Done: False
+Step: 447, Action: [0.2021187 1.       ], Reward: 0.10300295008270322, Done: False
+Step: 448, Action: [-1.  1.], Reward: 0.1188229598664292, Done: False
+Step: 449, Action: [-1.  1.], Reward: 0.11700740131970247, Done: False
+Step: 450, Action: [-0.25477296  1.        ], Reward: 0.1327990724944536, Done: False
+Step: 451, Action: [-0.55010086  1.        ], Reward: 0.16426603695130876, Done: False
+Step: 452, Action: [-0.8608814  1.       ], Reward: 0.17771098039367, Done: False
+Step: 453, Action: [-0.12087585  1.        ], Reward: 0.18686214387702366, Done: False
+Step: 454, Action: [-0.20402351  1.        ], Reward: 0.22180352377106985, Done: False
+Step: 455, Action: [0.36719844 1.        ], Reward: 0.2487702233035457, Done: False
+Step: 456, Action: [-0.7456695  1.       ], Reward: 0.2634214492158975, Done: False
+Step: 457, Action: [0.57541454 1.        ], Reward: 0.2556645664745145, Done: False
+Step: 458, Action: [0.27111498 1.        ], Reward: 0.27429369720907354, Done: False
+Step: 459, Action: [0.54346305 1.        ], Reward: 0.3011749781121583, Done: False
+Step: 460, Action: [0.4847323 1.       ], Reward: 0.32687321483712123, Done: False
+Step: 461, Action: [-1.  1.], Reward: 0.34159978500518196, Done: False
+Step: 462, Action: [0.2585351 1.       ], Reward: 0.336345648260058, Done: False
+Step: 463, Action: [0.80276877 1.        ], Reward: 0.3558819139838963, Done: False
+Step: 464, Action: [-0.4766292  1.       ], Reward: 0.3565039272955852, Done: False
+Step: 465, Action: [-0.07909815  1.        ], Reward: 0.3609176523035289, Done: False
+Step: 466, Action: [-0.25895098  1.        ], Reward: 0.38258763487621594, Done: False
+Step: 467, Action: [-0.40223247  1.        ], Reward: 0.3997761329629996, Done: False
+Step: 468, Action: [-0.23152363  1.        ], Reward: 0.4187889280725644, Done: False
+Step: 469, Action: [0.5595087 1.       ], Reward: 0.44113255203490076, Done: False
+Step: 470, Action: [1. 1.], Reward: 0.44430639443089115, Done: False
+Step: 471, Action: [0.12592253 1.        ], Reward: 0.44536411395977815, Done: False
+Step: 472, Action: [0.29596117 1.        ], Reward: 0.47180305375752524, Done: False
+Step: 473, Action: [-0.8876597  0.8421277], Reward: 0.4870278967754569, Done: False
+Step: 474, Action: [-1.  1.], Reward: 0.4694648557144105, Done: False
+Step: 475, Action: [0.08526079 1.        ], Reward: 0.4610015382105364, Done: False
+Step: 476, Action: [-0.07544135  1.        ], Reward: 0.4877825136172422, Done: False
+Step: 477, Action: [0.7479366 0.7219496], Reward: 0.5050193035751065, Done: False
+Step: 478, Action: [-0.786543   0.6228211], Reward: 0.4963575163935416, Done: False
+Step: 479, Action: [-0.31991404  1.        ], Reward: 0.48309561330024925, Done: False
+Step: 480, Action: [0.4058955 1.       ], Reward: 0.4926181941465377, Done: False
+Step: 481, Action: [-0.83123183  1.        ], Reward: 0.49636227053022686, Done: False
+Step: 482, Action: [-0.3427953  1.       ], Reward: 0.4864391850547572, Done: False
+Step: 483, Action: [0.54548025 1.        ], Reward: 0.495709706854987, Done: False
+Step: 484, Action: [-0.28158364  1.        ], Reward: 0.5029050766156885, Done: False
+Step: 485, Action: [-0.2336735  1.       ], Reward: 0.5142651781962901, Done: False
+Step: 486, Action: [-0.3390902  1.       ], Reward: 0.5288692387671124, Done: False
+Step: 487, Action: [-0.29417792  1.        ], Reward: 0.5373406846135549, Done: False
+Step: 488, Action: [1. 1.], Reward: 0.5452751649025696, Done: False
+Step: 489, Action: [0.67414606 1.        ], Reward: 0.5447396208092876, Done: False
+Step: 490, Action: [0.7005726 1.       ], Reward: 0.5545885707697041, Done: False
+Step: 491, Action: [0.8739073 1.       ], Reward: 0.5652730769240426, Done: False
+Step: 492, Action: [-0.00940531  1.        ], Reward: 0.5726037193334723, Done: False
+Step: 493, Action: [-0.04622388  1.        ], Reward: 0.584477321215312, Done: False
+Step: 494, Action: [-0.5761029  1.       ], Reward: 0.5945445674323454, Done: False
+Step: 495, Action: [1.         0.05617428], Reward: 0.5791756751692784, Done: False
+Step: 496, Action: [1. 1.], Reward: 0.5639773889396805, Done: False
+Step: 497, Action: [-0.68396056  1.        ], Reward: 0.5534985730807973, Done: False
+Step: 498, Action: [0.7624786 1.       ], Reward: 0.539286442266189, Done: False
+Step: 499, Action: [0.6732444 1.       ], Reward: 0.5443543034954382, Done: False
+Step: 500, Action: [0.22042626 1.        ], Reward: 0.5594497783112399, Done: False
+Step: 501, Action: [1. 1.], Reward: 0.5799244922532281, Done: False
+Step: 502, Action: [0.5358918 1.       ], Reward: 0.5828322065892472, Done: False
+Step: 503, Action: [-0.3296286  1.       ], Reward: 0.5941491733842168, Done: False
+Step: 504, Action: [0.42613015 1.        ], Reward: 0.5999873643437761, Done: False
+Step: 505, Action: [1. 1.], Reward: 0.6063475591486764, Done: False
+Step: 506, Action: [-0.76017207  1.        ], Reward: 0.5934091989110469, Done: False
+Step: 507, Action: [0.8865408 1.       ], Reward: 0.5818743797480747, Done: False
+Step: 508, Action: [1. 1.], Reward: 0.564439517498559, Done: False
+Step: 509, Action: [-0.08177286  1.        ], Reward: 0.5536814265588273, Done: False
+Step: 510, Action: [0.6553541 1.       ], Reward: 0.5655365052370723, Done: False
+Step: 511, Action: [0.15511218 1.        ], Reward: 0.5665814379385175, Done: False
+Step: 512, Action: [0.11575654 1.        ], Reward: 0.5935295094865289, Done: False
+Step: 513, Action: [0.66410494 1.        ], Reward: 0.6089862932036461, Done: False
+Step: 514, Action: [0.81247133 1.        ], Reward: 0.5925661403957702, Done: False
+Step: 515, Action: [-0.7462731  1.       ], Reward: 0.5729952746652789, Done: False
+Step: 516, Action: [-0.99212986  0.09993458], Reward: 0.566536126810507, Done: False
+Step: 517, Action: [-0.15643959  1.        ], Reward: 0.5619040642699821, Done: False
+Step: 518, Action: [-0.21477976  1.        ], Reward: 0.5928348611222913, Done: False
+Step: 519, Action: [-0.64865476  1.        ], Reward: 0.6199799695656019, Done: False
+Step: 520, Action: [-0.16944659  1.        ], Reward: 0.6372452037214512, Done: False
+Step: 521, Action: [0.8319278 1.       ], Reward: 0.6536887878248139, Done: False
+Step: 522, Action: [-1.  1.], Reward: 0.6399178521205787, Done: False
+Step: 523, Action: [-0.6157514  1.       ], Reward: 0.6350375669537696, Done: False
+Step: 524, Action: [-0.5335975  1.       ], Reward: 0.642132382576506, Done: False
+Step: 525, Action: [-1.  1.], Reward: 0.6473475151444861, Done: False
+Step: 526, Action: [-0.16934574  1.        ], Reward: 0.6476989517775043, Done: False
+Step: 527, Action: [0.44351432 1.        ], Reward: 0.6692910464310036, Done: False
+Step: 528, Action: [0.24559873 0.9038353 ], Reward: 0.6759451318006385, Done: False
+Step: 529, Action: [-0.12767911  1.        ], Reward: 0.6902747386854443, Done: False
+Step: 530, Action: [0.5119122 1.       ], Reward: 0.704495730712805, Done: False
+Step: 531, Action: [0.10461646 1.        ], Reward: 0.7136603442779046, Done: False
+Step: 532, Action: [-0.12874886  1.        ], Reward: 0.7384277682266404, Done: False
+Step: 533, Action: [-0.10643147  1.        ], Reward: 0.7619636202001597, Done: False
+Step: 534, Action: [0.8603904 1.       ], Reward: 0.7789768135890176, Done: False
+Step: 535, Action: [-1.  1.], Reward: 0.7671180699128044, Done: False
+Step: 536, Action: [ 0.1650312  -0.11965346], Reward: 0.7473582368345777, Done: False
+Step: 537, Action: [-0.06633607  1.        ], Reward: 0.7369409639865414, Done: False
+Step: 538, Action: [0.30069083 1.        ], Reward: 0.7618113288453771, Done: False
+Step: 539, Action: [-0.2667578  1.       ], Reward: 0.7719974850868492, Done: False
+Step: 540, Action: [-0.831499  1.      ], Reward: 0.7774612908593711, Done: False
+Step: 541, Action: [-1.  1.], Reward: 0.7660847429202151, Done: False
+Step: 542, Action: [0.7295782 1.       ], Reward: 0.7510291763016703, Done: False
+Step: 543, Action: [0.15230444 1.        ], Reward: 0.7500366248628615, Done: False
+Step: 544, Action: [-0.32048476  1.        ], Reward: 0.7668547183014616, Done: False
+Step: 545, Action: [ 0.6517812 -0.7952409], Reward: 0.7464689248981621, Done: False
+Step: 546, Action: [-0.8413967  1.       ], Reward: 0.6754989694355719, Done: False
+Step: 547, Action: [0.6337042 1.       ], Reward: 0.6561443778669129, Done: False
+Step: 548, Action: [0.6430539 0.8765471], Reward: 0.6457768680185364, Done: False
+Step: 549, Action: [-1.  1.], Reward: 0.6334506154116966, Done: False
+Step: 550, Action: [-0.82217884  0.7573314 ], Reward: 0.6196559280373218, Done: False
+Step: 551, Action: [-0.26069468  1.        ], Reward: 0.6171178469125337, Done: False
+Step: 552, Action: [-1.  1.], Reward: 0.6313956349660046, Done: False
+Step: 553, Action: [-0.19757262  1.        ], Reward: 0.6328776972042658, Done: False
+Step: 554, Action: [-1.        0.994526], Reward: 0.6498464713046059, Done: False
+Step: 555, Action: [0.380792 1.      ], Reward: 0.6427421343830081, Done: False
+Step: 556, Action: [0.41385987 0.64002955], Reward: 0.6450277694532799, Done: False
+Step: 557, Action: [-1.  1.], Reward: 0.637897302096427, Done: False
+Step: 558, Action: [-1.          0.28302753], Reward: 0.6174492069957302, Done: False
+Step: 559, Action: [-0.63261145  0.243886  ], Reward: 0.5908885859481594, Done: False
+Step: 560, Action: [-0.4526184  1.       ], Reward: 0.5806560167314397, Done: False
+Step: 561, Action: [0.717978 1.      ], Reward: 0.5890022365653124, Done: False
+Step: 562, Action: [-0.15357427  1.        ], Reward: 0.5962819305872069, Done: False
+Step: 563, Action: [0.31974688 1.        ], Reward: 0.6202785218287413, Done: False
+Step: 564, Action: [-0.01010333  0.32546985], Reward: 0.6342110868853451, Done: False
+Step: 565, Action: [-1.         -0.83428335], Reward: 0.6120406980853312, Done: False
+Step: 566, Action: [-1.         -0.65274286], Reward: 0.5152245216224668, Done: False
+Step: 567, Action: [0.2941569 0.808324 ], Reward: 0.4429478208294776, Done: False
+Step: 568, Action: [-0.04134761  1.        ], Reward: 0.4559561297393453, Done: False
+Step: 569, Action: [-0.52436864  1.        ], Reward: 0.47628720769595956, Done: False
+Step: 570, Action: [0.50419325 1.        ], Reward: 0.47927774325076183, Done: False
+Step: 571, Action: [-0.5056412  1.       ], Reward: 0.48461420630967844, Done: False
+Step: 572, Action: [0.24875483 1.        ], Reward: 0.4881722281976544, Done: False
+Step: 573, Action: [-0.41276246  1.        ], Reward: 0.5033788114459613, Done: False
+Step: 574, Action: [0.7834841 1.       ], Reward: 0.5040827691443384, Done: False
+Step: 575, Action: [0.07325092 1.        ], Reward: 0.510319351659242, Done: False
+Step: 576, Action: [0.12717038 1.        ], Reward: 0.5396489509331579, Done: False
+Step: 577, Action: [-0.13703129  1.        ], Reward: 0.5667057845407274, Done: False
+Step: 578, Action: [1. 1.], Reward: 0.5791542244571429, Done: False
+Step: 579, Action: [0.62538314 1.        ], Reward: 0.5709064128562644, Done: False
+Step: 580, Action: [-0.6299858  1.       ], Reward: 0.5667602054095724, Done: False
+Step: 581, Action: [-0.21204364  1.        ], Reward: 0.5672756900001057, Done: False
+Step: 582, Action: [0.10494961 1.        ], Reward: 0.5880702442131347, Done: False
+Step: 583, Action: [0.33599487 1.        ], Reward: 0.6090266895526586, Done: False
+Step: 584, Action: [-0.68509245  1.        ], Reward: 0.615151213307199, Done: False
+Step: 585, Action: [-0.35783342  1.        ], Reward: 0.614513573719254, Done: False
+Step: 586, Action: [1. 1.], Reward: 0.6166793458844377, Done: False
+Step: 587, Action: [0.62630427 1.        ], Reward: 0.6013720092576766, Done: False
+Step: 588, Action: [-0.35549694  1.        ], Reward: 0.5964585520945314, Done: False
+Step: 589, Action: [0.15673509 1.        ], Reward: 0.6070533931271235, Done: False
+Step: 590, Action: [-0.22848096  1.        ], Reward: 0.6250986597913879, Done: False
+Step: 591, Action: [-0.555843   0.3922472], Reward: 0.6364309112720707, Done: False
+Step: 592, Action: [-0.08473711  1.        ], Reward: 0.6397573694229729, Done: False
+Step: 593, Action: [-0.99942416  1.        ], Reward: 0.6555968470994888, Done: False
+Step: 594, Action: [-0.6400112  1.       ], Reward: 0.6474360388208114, Done: False
+Step: 595, Action: [-1.  1.], Reward: 0.6428452739659785, Done: False
+Step: 596, Action: [0.7882767 1.       ], Reward: 0.6290818436918304, Done: False
+Step: 597, Action: [0.15185493 1.        ], Reward: 0.6279683093218534, Done: False
+Step: 598, Action: [0.6305909 1.       ], Reward: 0.642206386546758, Done: False
+Step: 599, Action: [0.16357905 1.        ], Reward: 0.6489430257761026, Done: False
+Step: 600, Action: [-1.  1.], Reward: 0.6638230531529847, Done: False
+Step: 601, Action: [0.05777156 1.        ], Reward: 0.6615285962952252, Done: False
+Step: 602, Action: [-0.66569495  0.95847046], Reward: 0.6784500763243128, Done: False
+Step: 603, Action: [0.19807665 1.        ], Reward: 0.6795292921188304, Done: False
+Step: 604, Action: [-0.89563656  1.        ], Reward: 0.6841662990937006, Done: False
+Step: 605, Action: [-0.8825428  1.       ], Reward: 0.6730669051142946, Done: False
+Step: 606, Action: [0.01225429 1.        ], Reward: 0.6708511872957741, Done: False
+Step: 607, Action: [0.36274436 1.        ], Reward: 0.688989078590341, Done: False
+Step: 608, Action: [-0.40848666  0.8923849 ], Reward: 0.6925656683649023, Done: False
+Step: 609, Action: [-1.  1.], Reward: 0.692000945087874, Done: False
+Step: 610, Action: [-0.3066205  1.       ], Reward: 0.6873615348434352, Done: False
+Step: 611, Action: [0.24113214 1.        ], Reward: 0.705036414275474, Done: False
+Step: 612, Action: [0.25256273 1.        ], Reward: 0.7146853872261162, Done: False
+Step: 613, Action: [-0.02310531  1.        ], Reward: 0.7291226084937509, Done: False
+Step: 614, Action: [1. 1.], Reward: 0.7434362289704868, Done: False
+Step: 615, Action: [-0.53966916  1.        ], Reward: 0.7288370550649358, Done: False
+Step: 616, Action: [-0.69129556  1.        ], Reward: 0.7274266904200071, Done: False
+Step: 617, Action: [0.41755903 1.        ], Reward: 0.7241049172202074, Done: False
+Step: 618, Action: [ 1.         -0.14068627], Reward: 0.7076195192826727, Done: False
+Step: 619, Action: [-0.50321674  0.04311299], Reward: 0.6642792265970994, Done: False
+Step: 620, Action: [0.6620753 1.       ], Reward: 0.6475473603740979, Done: False
+Step: 621, Action: [0.139756 1.      ], Reward: 0.6410767466705083, Done: False
+Step: 622, Action: [-1.  1.], Reward: 0.6513925666453174, Done: False
+Step: 623, Action: [-0.6151654  1.       ], Reward: 0.6447514679772864, Done: False
+Step: 624, Action: [-0.9039409  1.       ], Reward: 0.6443393854596029, Done: False
+Step: 625, Action: [-0.99034595  1.        ], Reward: 0.6367830019643738, Done: False
+Step: 626, Action: [-0.02136149  0.51629364], Reward: 0.6315315883750428, Done: False
+Step: 627, Action: [-0.9019063  1.       ], Reward: 0.6344581029213793, Done: False
+Step: 628, Action: [-1.  1.], Reward: 0.6249327111113003, Done: False
+Step: 629, Action: [0.5915054 1.       ], Reward: 0.6133185226343163, Done: False
+Step: 630, Action: [-0.57183826  1.        ], Reward: 0.6091455695104648, Done: False
+Step: 631, Action: [-1.         0.1115402], Reward: 0.6011821147428963, Done: False
+Step: 632, Action: [0.54236645 1.        ], Reward: 0.5790572200448806, Done: False
+Step: 633, Action: [-1.  1.], Reward: 0.5726070791452034, Done: False
+Step: 634, Action: [-0.9534866  1.       ], Reward: 0.5547080122571352, Done: False
+Step: 635, Action: [0.08090025 1.        ], Reward: 0.5475701833779862, Done: False
+Step: 636, Action: [-0.7979369  1.       ], Reward: 0.5607770349225464, Done: False
+Step: 637, Action: [-0.08349145  1.        ], Reward: 0.5619510978447125, Done: False
+Step: 638, Action: [-0.3439207  1.       ], Reward: 0.5861683977117597, Done: False
+Step: 639, Action: [0.06186604 1.        ], Reward: 0.6000404728909206, Done: False
+Step: 640, Action: [-0.01258306  1.        ], Reward: 0.630936064674953, Done: False
+Step: 641, Action: [-0.3181062  1.       ], Reward: 0.6552880573413575, Done: False
+Step: 642, Action: [0.42243356 1.        ], Reward: 0.6637083190634514, Done: False
+Step: 643, Action: [0.01961263 1.        ], Reward: 0.6821776005575728, Done: False
+Step: 644, Action: [-0.42808345  0.2378645 ], Reward: 0.700753750144386, Done: False
+Step: 645, Action: [0.4150583 1.       ], Reward: 0.69543428875502, Done: False
+Step: 646, Action: [1. 1.], Reward: 0.7017693254677423, Done: False
+Step: 647, Action: [-0.04118927  1.        ], Reward: 0.7004793317895737, Done: False
+Step: 648, Action: [0.32382244 1.        ], Reward: 0.7216399380269303, Done: False
+Step: 649, Action: [0.00566614 1.        ], Reward: 0.741107773044538, Done: False
+Step: 650, Action: [0.67909265 1.        ], Reward: 0.7610367880103597, Done: False
+Step: 651, Action: [-0.19111964  1.        ], Reward: 0.7632102221907308, Done: False
+Step: 652, Action: [-0.47193316  0.38613367], Reward: 0.7705366486737549, Done: False
+Step: 653, Action: [0.3178752 1.       ], Reward: 0.7666302229208641, Done: False
+Step: 654, Action: [-1.  1.], Reward: 0.7668876968246905, Done: False
+Step: 655, Action: [0.94941044 1.        ], Reward: 0.749524428792661, Done: False
+Step: 656, Action: [0.29328963 1.        ], Reward: 0.7397533091776894, Done: False
+Step: 657, Action: [0.74424684 1.        ], Reward: 0.7430458910223583, Done: False
+Step: 658, Action: [0.03829204 1.        ], Reward: 0.7403293058249436, Done: False
+Step: 659, Action: [-0.9578692  1.       ], Reward: 0.7551680725876428, Done: False
+Step: 660, Action: [-0.9873389  1.       ], Reward: 0.7422835814427803, Done: False
+Step: 661, Action: [-0.29136148  1.        ], Reward: 0.7378808839135381, Done: False
+Step: 662, Action: [-1.  1.], Reward: 0.7517937293217343, Done: False
+Step: 663, Action: [-0.6651554  1.       ], Reward: 0.7451079276898508, Done: False
+Step: 664, Action: [1. 1.], Reward: 0.7398019040136026, Done: False
+Step: 665, Action: [-0.33385935  1.        ], Reward: 0.7321074379213499, Done: False
+Step: 666, Action: [-0.93199027  1.        ], Reward: 0.7380384377885901, Done: False
+Step: 667, Action: [0.08189553 1.        ], Reward: 0.7333465631069244, Done: False
+Step: 668, Action: [0.24349473 1.        ], Reward: 0.7542903698965688, Done: False
+Step: 669, Action: [1. 1.], Reward: 0.7650017238790439, Done: False
+Step: 670, Action: [0.8962564 0.9718926], Reward: 0.7529988936075913, Done: False
+Step: 671, Action: [-1.  1.], Reward: 0.7376037794989156, Done: False
+Step: 672, Action: [0.69730425 1.        ], Reward: 0.7210922885870861, Done: False
+Step: 673, Action: [0.40827137 0.9688151 ], Reward: 0.7126222667129891, Done: False
+Step: 674, Action: [1. 1.], Reward: 0.7043747933317291, Done: False
+Step: 675, Action: [0.03522675 1.        ], Reward: 0.6894392617500078, Done: False
+Step: 676, Action: [-0.27789256  1.        ], Reward: 0.7095463008121607, Done: False
+Step: 677, Action: [-0.10789612  1.        ], Reward: 0.7284721995248744, Done: False
+Step: 678, Action: [0.41986772 1.        ], Reward: 0.7451761813923907, Done: False
+Step: 679, Action: [-0.28473592  1.        ], Reward: 0.7421156170876414, Done: False
+Step: 680, Action: [0.50730693 1.        ], Reward: 0.7494120012684798, Done: False
+Step: 681, Action: [-0.98254097  1.        ], Reward: 0.7338335968537001, Done: False
+Step: 682, Action: [-0.4838976  1.       ], Reward: 0.7282115003081351, Done: False
+Step: 683, Action: [-0.79052156  1.        ], Reward: 0.7356177410902437, Done: False
+Step: 684, Action: [0.95473206 1.        ], Reward: 0.730008667091346, Done: False
+Step: 685, Action: [0.22157672 1.        ], Reward: 0.7135891926885247, Done: False
+Step: 686, Action: [0.05441394 1.        ], Reward: 0.7183967622194347, Done: False
+Step: 687, Action: [-0.4366297   0.42174256], Reward: 0.7325595186175148, Done: False
+Step: 688, Action: [0.43758145 1.        ], Reward: 0.7293938309286276, Done: False
+Step: 689, Action: [-1.  1.], Reward: 0.715052903664645, Done: False
+Step: 690, Action: [-1.  1.], Reward: 0.7449347302598857, Done: False
+Step: 691, Action: [0.47663036 1.        ], Reward: 0.7327128673373426, Done: False
+Step: 692, Action: [0.5097349 1.       ], Reward: 0.7164493407840911, Done: False
+Step: 693, Action: [-0.2107335  1.       ], Reward: 0.7066910259311918, Done: False
+Step: 694, Action: [-0.9573386  1.       ], Reward: 0.7174445860478517, Done: False
+Step: 695, Action: [0.51120555 1.        ], Reward: 0.707990390048689, Done: False
+Step: 696, Action: [-1.  1.], Reward: 0.6908166378105768, Done: False
+Step: 697, Action: [-0.12214282  1.        ], Reward: 0.6911111728711822, Done: False
+Step: 698, Action: [-0.986333  1.      ], Reward: -5.0, Done: True
+Step: 699, Action: [-0.8761449  0.7214718], Reward: 0.005187304024210556, Done: False
+Step: 700, Action: [-0.2783888  1.       ], Reward: 0.02600714072185316, Done: False
+Step: 701, Action: [-0.32180458  1.        ], Reward: 0.05434780318217756, Done: False
+Step: 702, Action: [-0.6705932  1.       ], Reward: 0.08034010988415641, Done: False
+Step: 703, Action: [-0.4054699  1.       ], Reward: 0.1045222737356494, Done: False
+Step: 704, Action: [-1.  1.], Reward: 0.1254935717795871, Done: False
+Step: 705, Action: [-1.  1.], Reward: 0.13077697105480374, Done: False
+Step: 706, Action: [0.24294594 1.        ], Reward: 0.14318603925621867, Done: False
+Step: 707, Action: [0.25581855 0.2509501 ], Reward: 0.15845007157152277, Done: False
+Step: 708, Action: [-1.  1.], Reward: 0.1581388299958931, Done: False
+Step: 709, Action: [-0.44896472  1.        ], Reward: 0.15415861647282256, Done: False
+Step: 710, Action: [-0.00316286  1.        ], Reward: 0.18008020430611799, Done: False
+Step: 711, Action: [-0.3924856  1.       ], Reward: 0.20695852956523775, Done: False
+Step: 712, Action: [-0.74341977  1.        ], Reward: 0.2198810201530789, Done: False
+Step: 713, Action: [-1.  1.], Reward: 0.21611327104658687, Done: False
+Step: 714, Action: [-1.  1.], Reward: 0.2075097558500379, Done: False
+Step: 715, Action: [-0.6964917  0.8697499], Reward: 0.21412448662703498, Done: False
+Step: 716, Action: [0.45992407 1.        ], Reward: 0.23482938168392747, Done: False
+Step: 717, Action: [0.2586705 1.       ], Reward: 0.25528678936819327, Done: False
+Step: 718, Action: [-0.48489124  1.        ], Reward: 0.27497966481018266, Done: False
+Step: 719, Action: [-0.73063076  1.        ], Reward: 0.26274580861150554, Done: False
+Step: 720, Action: [-0.6354843  1.       ], Reward: 0.24697892942684857, Done: False
+Step: 721, Action: [-0.23574916  0.06269073], Reward: 0.2533250821827453, Done: False
+Step: 722, Action: [-0.71280646 -0.5202532 ], Reward: 0.2402852722421382, Done: False
+Step: 723, Action: [-0.6761618  1.       ], Reward: 0.17646257249447844, Done: False
+Step: 724, Action: [-0.05645159  1.        ], Reward: 0.18662236190037373, Done: False
+Step: 725, Action: [-0.14030565  1.        ], Reward: 0.22445567897603294, Done: False
+Step: 726, Action: [0.29587865 1.        ], Reward: 0.2507547651838665, Done: False
+Step: 727, Action: [-0.06197475  1.        ], Reward: 0.27829239341747625, Done: False
+Step: 728, Action: [0.56176996 1.        ], Reward: 0.2925201870324039, Done: False
+Step: 729, Action: [1.         0.91912436], Reward: 0.31608115180214047, Done: False
+Step: 730, Action: [-0.2892576  1.       ], Reward: 0.32107799095937695, Done: False
+Step: 731, Action: [0.2427865 1.       ], Reward: 0.3196122426538993, Done: False
+Step: 732, Action: [0.73702836 1.        ], Reward: 0.3464358327417917, Done: False
+Step: 733, Action: [0.6263238 1.       ], Reward: 0.37044924415959024, Done: False
+Step: 734, Action: [0.761603 1.      ], Reward: 0.39893223826132485, Done: False
+Step: 735, Action: [-0.98287785  1.        ], Reward: 0.40979343767060816, Done: False
+Step: 736, Action: [1. 1.], Reward: 0.3944682723668814, Done: False
+Step: 737, Action: [-0.302362  1.      ], Reward: 0.39349456364393526, Done: False
+Step: 738, Action: [0.82100654 1.        ], Reward: 0.39179827078128576, Done: False
+Step: 739, Action: [0.28352007 1.        ], Reward: 0.40310212659664674, Done: False
+Step: 740, Action: [0.7914103 1.       ], Reward: 0.4248423427480623, Done: False
+Step: 741, Action: [0.8435129 1.       ], Reward: 0.42824274203255985, Done: False
+Step: 742, Action: [0.46659443 0.04037929], Reward: 0.42932909331815505, Done: False
+Step: 743, Action: [-0.7950312  1.       ], Reward: 0.4274472492263517, Done: False
+Step: 744, Action: [0.12950084 1.        ], Reward: 0.42728716613749596, Done: False
+Step: 745, Action: [1. 1.], Reward: 0.44319936852043, Done: False
+Step: 746, Action: [-0.44125155  1.        ], Reward: 0.43479983493611013, Done: False
+Step: 747, Action: [0.4388922 1.       ], Reward: 0.4390872416090681, Done: False
+Step: 748, Action: [-0.25213438  1.        ], Reward: 0.4458368165508695, Done: False
+Step: 749, Action: [0.03574954 1.        ], Reward: 0.465201379115076, Done: False
+Step: 750, Action: [-0.5409523  0.7504082], Reward: 0.48500201189997116, Done: False
+Step: 751, Action: [0.9353984 1.       ], Reward: 0.48171655058896534, Done: False
+Step: 752, Action: [0.62978196 1.        ], Reward: 0.46748372436801894, Done: False
+Step: 753, Action: [0.8135457 1.       ], Reward: 0.4569780413848858, Done: False
+Step: 754, Action: [-0.8686309  1.       ], Reward: 0.44292018955879275, Done: False
+Step: 755, Action: [1. 1.], Reward: 0.43103650190442744, Done: False
+Step: 756, Action: [-0.0852959  1.       ], Reward: 0.42025374754387285, Done: False
+Step: 757, Action: [1. 1.], Reward: 0.43360049804024614, Done: False
+Step: 758, Action: [0.4819157 1.       ], Reward: 0.4171462796572314, Done: False
+Step: 759, Action: [-1.  1.], Reward: 0.4125821751538424, Done: False
+Step: 760, Action: [-1.  1.], Reward: 0.40607818907751614, Done: False
+Step: 761, Action: [0.20016591 1.        ], Reward: 0.40330383486773375, Done: False
+Step: 762, Action: [-1.  1.], Reward: 0.40928544225757085, Done: False
+Step: 763, Action: [-1.  1.], Reward: 0.406513348860448, Done: False
+Step: 764, Action: [-0.47708613  0.6153809 ], Reward: 0.40874066585368846, Done: False
+Step: 765, Action: [-0.9905915  1.       ], Reward: 0.41957616195693437, Done: False
+Step: 766, Action: [-1.  1.], Reward: 0.41793013906324306, Done: False
+Step: 767, Action: [-0.3583616  1.       ], Reward: 0.42384862403068624, Done: False
+Step: 768, Action: [0.49714708 1.        ], Reward: 0.4460269493967326, Done: False
+Step: 769, Action: [0.9253584 1.       ], Reward: 0.4415787702834783, Done: False
+Step: 770, Action: [-0.03237551  1.        ], Reward: 0.43776132798885337, Done: False
+Step: 771, Action: [1. 1.], Reward: 0.4526148510323267, Done: False
+Step: 772, Action: [-0.7860147  1.       ], Reward: 0.4392436533158113, Done: False
+Step: 773, Action: [-0.334708  1.      ], Reward: 0.4385070372852571, Done: False
+Step: 774, Action: [0.34068626 1.        ], Reward: 0.45357418527450466, Done: False
+Step: 775, Action: [0.5726414 1.       ], Reward: 0.45863493665305266, Done: False
+Step: 776, Action: [-0.97131723  1.        ], Reward: 0.4531107048490864, Done: False
+Step: 777, Action: [0.796212 1.      ], Reward: 0.43984835839246555, Done: False
+Step: 778, Action: [-0.28315955  1.        ], Reward: 0.4334256212846932, Done: False
+Step: 779, Action: [0.02319533 1.        ], Reward: 0.451150381990184, Done: False
+Step: 780, Action: [-1.  1.], Reward: 0.4679215871811906, Done: False
+Step: 781, Action: [-0.45521402  1.        ], Reward: 0.4640699471583064, Done: False
+Step: 782, Action: [-0.23449266  1.        ], Reward: 0.48118477808421156, Done: False
+Step: 783, Action: [0.3678122 0.7135581], Reward: 0.5025267605585924, Done: False
+Step: 784, Action: [-0.7142002  1.       ], Reward: 0.5025989583617959, Done: False
+Step: 785, Action: [0.09974882 1.        ], Reward: 0.5033230744179682, Done: False
+Step: 786, Action: [0.94094896 1.        ], Reward: 0.5172454635470922, Done: False
+Step: 787, Action: [-0.5328466  0.951584 ], Reward: 0.5083216663321343, Done: False
+Step: 788, Action: [-1.  1.], Reward: 0.5014047037020959, Done: False
+Step: 789, Action: [-0.13354897  1.        ], Reward: 0.4961112089191817, Done: False
+Step: 790, Action: [-0.10528173  1.        ], Reward: 0.5233799222904864, Done: False
+Step: 791, Action: [-0.0827981  1.       ], Reward: 0.5521365071318417, Done: False
+Step: 792, Action: [-0.40029734  1.        ], Reward: 0.5739582140288878, Done: False
+Step: 793, Action: [-0.97547036  1.        ], Reward: 0.5720835916781319, Done: False
+Step: 794, Action: [-0.64160323  0.22909594], Reward: 0.5490297865931032, Done: False
+Step: 795, Action: [1. 1.], Reward: 0.5228889641690232, Done: False
+Step: 796, Action: [0.21786176 0.5788249 ], Reward: 0.5167596258440844, Done: False
+Step: 797, Action: [-0.42160043  1.        ], Reward: 0.5250639525502794, Done: False
+Step: 798, Action: [0.34209618 1.        ], Reward: 0.5246535984783945, Done: False
+Step: 799, Action: [-0.47014412  1.        ], Reward: 0.5353230831749142, Done: False
+Step: 800, Action: [0.24787612 0.5492369 ], Reward: 0.5321156512939997, Done: False
+Step: 801, Action: [1. 1.], Reward: 0.5422847900827982, Done: False
+Step: 802, Action: [0.07501973 1.        ], Reward: 0.5458884975405481, Done: False
+Step: 803, Action: [-0.43680245  1.        ], Reward: 0.5616153224747298, Done: False
+Step: 804, Action: [0.56119394 0.9030657 ], Reward: 0.5596686574130325, Done: False
+Step: 805, Action: [-0.48458332  1.        ], Reward: 0.5629756876683156, Done: False
+Step: 806, Action: [1. 1.], Reward: 0.5533298743210358, Done: False
+Step: 807, Action: [0.7118237 1.       ], Reward: 0.5491933615612095, Done: False
+Step: 808, Action: [0.29990947 1.        ], Reward: 0.5605519335074733, Done: False
+Step: 809, Action: [0.8753901 1.       ], Reward: 0.5814371556158007, Done: False
+Step: 810, Action: [-1.         0.9987949], Reward: 0.5760376770532146, Done: False
+Step: 811, Action: [-0.5690394  1.       ], Reward: 0.5600929588165828, Done: False
+Step: 812, Action: [1. 1.], Reward: 0.5498248228439387, Done: False
+Step: 813, Action: [0.2752164 1.       ], Reward: 0.5471486947864088, Done: False
+Step: 814, Action: [-0.40954965  1.        ], Reward: 0.5645937021748199, Done: False
+Step: 815, Action: [0.42834866 1.        ], Reward: 0.5692545985608708, Done: False
+Step: 816, Action: [-0.3148444  1.       ], Reward: 0.5768288261812629, Done: False
+Step: 817, Action: [0.4944493 1.       ], Reward: 0.566453921863148, Done: False
+Step: 818, Action: [0.26019675 1.        ], Reward: 0.574446303536287, Done: False
+Step: 819, Action: [-0.8135148   0.94429636], Reward: 0.5861665516023551, Done: False
+Step: 820, Action: [1. 1.], Reward: 0.5743849433927782, Done: False
+Step: 821, Action: [0.36494204 1.        ], Reward: 0.5961551943516505, Done: False
+Step: 822, Action: [-0.40254495  1.        ], Reward: 0.6017206662910033, Done: False
+Step: 823, Action: [-0.15248181  1.        ], Reward: 0.6134732887235139, Done: False
+Step: 824, Action: [-0.2738138  1.       ], Reward: 0.6389132584098013, Done: False
+Step: 825, Action: [0.67466736 1.        ], Reward: 0.6545597374529095, Done: False
+Step: 826, Action: [-0.185478  1.      ], Reward: 0.654191246359354, Done: False
+Step: 827, Action: [0.04750803 1.        ], Reward: 0.6780377646063741, Done: False
+Step: 828, Action: [-0.93137264  1.        ], Reward: 0.6903976621321872, Done: False
+Step: 829, Action: [-0.33874613  1.        ], Reward: 0.6894926606508545, Done: False
+Step: 830, Action: [-0.17127128  1.        ], Reward: 0.7104121221323305, Done: False
+Step: 831, Action: [-0.05183953  1.        ], Reward: 0.7389451385825878, Done: False
+Step: 832, Action: [-0.2956447  0.5500473], Reward: 0.7606374492122009, Done: False
+Step: 833, Action: [-0.23381011  1.        ], Reward: 0.7738233356762965, Done: False
+Step: 834, Action: [-0.47136772  1.        ], Reward: 0.7949584405527019, Done: False
+Step: 835, Action: [-1.         0.5876422], Reward: 0.7953378718550437, Done: False
+Step: 836, Action: [-1.  1.], Reward: 0.7753599513476632, Done: False
+Step: 837, Action: [-1.  1.], Reward: 0.755325329910969, Done: False
+Step: 838, Action: [0.2166388 1.       ], Reward: 0.7437491332353567, Done: False
+Step: 839, Action: [-0.15712738  0.85503244], Reward: 0.7620853645526547, Done: False
+Step: 840, Action: [0.45513052 0.9188019 ], Reward: 0.7813961456198384, Done: False
+Step: 841, Action: [-0.23957658  1.        ], Reward: 0.7453778309683207, Done: False
+Step: 842, Action: [-0.13945045  1.        ], Reward: 0.7581254980919201, Done: False
+Step: 843, Action: [0.03730607 1.        ], Reward: 0.7858014753223531, Done: False
+Step: 844, Action: [0.41511527 1.        ], Reward: 0.8162665745641567, Done: False
+Step: 845, Action: [-0.61262  1.     ], Reward: 0.8275805958214115, Done: False
+Step: 846, Action: [1. 1.], Reward: 0.8208820739860683, Done: False
+Step: 847, Action: [0.9821601 1.       ], Reward: 0.8116769353993102, Done: False
+Step: 848, Action: [-0.26390553  1.        ], Reward: 0.8054187575111363, Done: False
+Step: 849, Action: [0.4234893 1.       ], Reward: 0.8123185869450411, Done: False
+Step: 850, Action: [-0.5507213  1.       ], Reward: 0.8169607764513547, Done: False
+Step: 851, Action: [-1.  1.], Reward: 0.8107329049011269, Done: False
+Step: 852, Action: [0.39703748 1.        ], Reward: 0.7998436085004946, Done: False
+Step: 853, Action: [-0.79014105  0.8584331 ], Reward: 0.7990423470779919, Done: False
+Step: 854, Action: [-1.  1.], Reward: 0.7849594080525623, Done: False
+Step: 855, Action: [-0.8430338  1.       ], Reward: 0.7684108173341261, Done: False
+Step: 856, Action: [-0.27246153  0.44130087], Reward: 0.7609122805648016, Done: False
+Step: 857, Action: [1. 1.], Reward: 0.7627379710948992, Done: False
+Step: 858, Action: [-0.14755806  1.        ], Reward: 0.7622455470679499, Done: False
+Step: 859, Action: [-0.6726806  1.       ], Reward: 0.7775133173823041, Done: False
+Step: 860, Action: [0.6684219 1.       ], Reward: 0.7729524374307701, Done: False
+Step: 861, Action: [-0.76116365  1.        ], Reward: 0.7706118885817788, Done: False
+Step: 862, Action: [0.97516924 1.        ], Reward: -5.0, Done: True
+Step: 863, Action: [-1.  1.], Reward: 0.007401988350192721, Done: False
+Step: 864, Action: [0.32767484 1.        ], Reward: 0.032736032671321066, Done: False
+Step: 865, Action: [0.06021869 1.        ], Reward: 0.061723827609371215, Done: False
+Step: 866, Action: [-0.18840358  1.        ], Reward: 0.09201237304492084, Done: False
+Step: 867, Action: [-1.  1.], Reward: 0.1130373942011706, Done: False
+Step: 868, Action: [0.83805346 1.        ], Reward: 0.11273297189491235, Done: False
+Step: 869, Action: [-0.15815187  1.        ], Reward: 0.11917115689343685, Done: False
+Step: 870, Action: [-0.37866968  1.        ], Reward: 0.14652185313870986, Done: False
+Step: 871, Action: [0.2646604 1.       ], Reward: 0.17188029511470632, Done: False
+Step: 872, Action: [0.1409075 1.       ], Reward: 0.19908448722197636, Done: False
+Step: 873, Action: [-0.6710815  1.       ], Reward: 0.22115413391142885, Done: False
+Step: 874, Action: [-0.27374443  1.        ], Reward: 0.23100688736301603, Done: False
+Step: 875, Action: [-0.09183851  1.        ], Reward: 0.2604471518161891, Done: False
+Step: 876, Action: [0.9013067 1.       ], Reward: 0.2818031598283281, Done: False
+Step: 877, Action: [-1.  1.], Reward: 0.2737972487389226, Done: False
+Step: 878, Action: [-0.20180213  1.        ], Reward: 0.2696884257010918, Done: False
+Step: 879, Action: [0.38831055 1.        ], Reward: 0.29263820926937506, Done: False
+Step: 880, Action: [0.7809909 1.       ], Reward: 0.3049303547023685, Done: False
+Step: 881, Action: [-0.2322937  1.       ], Reward: 0.30826108605691144, Done: False
+Step: 882, Action: [0.20329294 1.        ], Reward: 0.32569498430627264, Done: False
+Step: 883, Action: [-0.9205742  1.       ], Reward: 0.3431272361315014, Done: False
+Step: 884, Action: [1. 1.], Reward: 0.33221133430413785, Done: False
+Step: 885, Action: [0.20174596 0.6972145 ], Reward: 0.32791456153057874, Done: False
+Step: 886, Action: [0.53585553 1.        ], Reward: 0.34385278653022566, Done: False
+Step: 887, Action: [0.859285   0.39562154], Reward: 0.3468877605755719, Done: False
+Step: 888, Action: [-0.27309275  1.        ], Reward: 0.3360055335849847, Done: False
+Step: 889, Action: [-0.5473935  1.       ], Reward: 0.3468031388271994, Done: False
+Step: 890, Action: [-0.07905088  1.        ], Reward: 0.36014015781309405, Done: False
+Step: 891, Action: [0.25712085 1.        ], Reward: 0.38509147388226794, Done: False
+Step: 892, Action: [-0.319238  1.      ], Reward: 0.4016288122093159, Done: False
+Step: 893, Action: [-0.40264064  1.        ], Reward: 0.4208230764014567, Done: False
+Step: 894, Action: [-0.6869614  1.       ], Reward: 0.437584934853634, Done: False
+Step: 895, Action: [-0.23595695  1.        ], Reward: 0.4504016150367413, Done: False
+Step: 896, Action: [-0.18172738  0.8172606 ], Reward: 0.4811086971415284, Done: False
+Step: 897, Action: [1.       0.774292], Reward: 0.4954528055768472, Done: False
+Step: 898, Action: [-0.13166963  1.        ], Reward: 0.491325372972285, Done: False
+Step: 899, Action: [-0.9868168  1.       ], Reward: 0.5056180319401626, Done: False
+Step: 900, Action: [0.58589244 1.        ], Reward: 0.4949300888677387, Done: False
+Step: 901, Action: [0.24002635 1.        ], Reward: 0.5013924025029574, Done: False
+Step: 902, Action: [-0.1161792  1.       ], Reward: 0.5242864794280798, Done: False
+Step: 903, Action: [0.51109934 1.        ], Reward: 0.542179228626615, Done: False
+Step: 904, Action: [0.47062218 1.        ], Reward: 0.5493413157873795, Done: False
+Step: 905, Action: [-0.8690822   0.81059873], Reward: 0.551369562147402, Done: False
+Step: 906, Action: [0.41237435 1.        ], Reward: 0.5434546482858755, Done: False
+Step: 907, Action: [-0.22397622  1.        ], Reward: 0.5526786244701754, Done: False
+Step: 908, Action: [0.6553285 1.       ], Reward: 0.5625162311090185, Done: False
+Step: 909, Action: [0.3991323 1.       ], Reward: 0.5609715459548497, Done: False
+Step: 910, Action: [-0.15793467  1.        ], Reward: 0.5720155663713987, Done: False
+Step: 911, Action: [-0.6239182   0.20598853], Reward: 0.5836074179744424, Done: False
+Step: 912, Action: [0.17801867 0.09164619], Reward: 0.5732650737910661, Done: False
+Step: 913, Action: [-1.  1.], Reward: 0.5620582143381839, Done: False
+Step: 914, Action: [0.52032596 1.        ], Reward: 0.5517258415113848, Done: False
+Step: 915, Action: [0.7303585 1.       ], Reward: 0.5432033909967073, Done: False
+Step: 916, Action: [0.27185592 1.        ], Reward: 0.5395252007002257, Done: False
+Step: 917, Action: [0.5846516 1.       ], Reward: 0.5519664345789994, Done: False
+Step: 918, Action: [-0.02014104  1.        ], Reward: 0.5525390854647452, Done: False
+Step: 919, Action: [0.20230845 1.        ], Reward: 0.5777944301786818, Done: False
+Step: 920, Action: [-0.6925053  0.9681009], Reward: 0.5911107976030584, Done: False
+Step: 921, Action: [-0.926896  1.      ], Reward: 0.5958314222109028, Done: False
+Step: 922, Action: [-0.85707045  0.50582767], Reward: 0.594456961733949, Done: False
+Step: 923, Action: [-0.42008597  1.        ], Reward: 0.5996359654840479, Done: False
+Step: 924, Action: [-0.36917263  1.        ], Reward: 0.6304833562264076, Done: False
+Step: 925, Action: [0.21305683 1.        ], Reward: 0.6564973202490901, Done: False
+Step: 926, Action: [-0.13432518  1.        ], Reward: 0.6719733707420611, Done: False
+Step: 927, Action: [-0.4171859  1.       ], Reward: 0.6984983628587604, Done: False
+Step: 928, Action: [-1.  1.], Reward: 0.7066542807972231, Done: False
+Step: 929, Action: [-0.30134255  1.        ], Reward: 0.7060992155302441, Done: False
+Step: 930, Action: [-0.6140958  1.       ], Reward: 0.7238080887594325, Done: False
+Step: 931, Action: [-0.52306515  1.        ], Reward: 0.7231800181963154, Done: False
+Step: 932, Action: [-1.  1.], Reward: 0.7154757492445952, Done: False
+Step: 933, Action: [0.33262813 1.        ], Reward: 0.699416954758277, Done: False
+Step: 934, Action: [-1.  1.], Reward: 0.6980986611891902, Done: False
+Step: 935, Action: [0.06487006 1.        ], Reward: 0.6835591084100852, Done: False
+Step: 936, Action: [-0.30978018  1.        ], Reward: 0.7033780441756561, Done: False
+Step: 937, Action: [0.3315346 1.       ], Reward: 0.7046298558806691, Done: False
+Step: 938, Action: [-0.41834936  1.        ], Reward: 0.7156042483423966, Done: False
+Step: 939, Action: [0.696167 1.      ], Reward: 0.7083890303608099, Done: False
+Step: 940, Action: [ 0.21245266 -0.11915064], Reward: 0.7095286708940273, Done: False
+Step: 941, Action: [-1.  1.], Reward: 0.6893991131640947, Done: False
+Step: 942, Action: [-0.00692469  0.5020802 ], Reward: 0.6705891633402482, Done: False
+Step: 943, Action: [0.46127513 1.        ], Reward: 0.6841107126370624, Done: False
+Step: 944, Action: [1.         0.76813376], Reward: 0.6969596479260858, Done: False
+Step: 945, Action: [0.67278755 1.        ], Reward: 0.6981571138355193, Done: False
+Step: 946, Action: [0.7531109 1.       ], Reward: 0.7083533401181316, Done: False
+Step: 947, Action: [1. 1.], Reward: 0.7125448268789341, Done: False
+Step: 948, Action: [1. 1.], Reward: 0.7066457828481126, Done: False
+Step: 949, Action: [-0.720136  1.      ], Reward: 0.6969165128760365, Done: False
+Step: 950, Action: [-0.9444969  1.       ], Reward: 0.6866046049446719, Done: False
+Step: 951, Action: [-0.4421661  1.       ], Reward: 0.6760706503868579, Done: False
+Step: 952, Action: [0.05035681 1.        ], Reward: 0.6854309801640641, Done: False
+Step: 953, Action: [0.2622445 1.       ], Reward: 0.7089291251403702, Done: False
+Step: 954, Action: [-0.7231705  1.       ], Reward: 0.7186461838398432, Done: False
+Step: 955, Action: [-0.26611605  1.        ], Reward: 0.7194995541044132, Done: False
+Step: 956, Action: [0.5133783 1.       ], Reward: 0.7304439915719235, Done: False
+Step: 957, Action: [0.20925689 1.        ], Reward: 0.7504544571101133, Done: False
+Step: 958, Action: [0.02920115 0.5841694 ], Reward: 0.7692781793461155, Done: False
+Step: 959, Action: [-0.77166903  1.        ], Reward: 0.7803062146919432, Done: False
+Step: 960, Action: [-0.20790568  1.        ], Reward: 0.7827436900008709, Done: False
+Step: 961, Action: [0.8535172 1.       ], Reward: 0.7977002543714564, Done: False
+Step: 962, Action: [-0.30970562  1.        ], Reward: 0.7937483663067513, Done: False
+Step: 963, Action: [-1.  1.], Reward: 0.7985178330320041, Done: False
+Step: 964, Action: [0.2041955 1.       ], Reward: 0.791903691263322, Done: False
+Step: 965, Action: [-0.6059435  1.       ], Reward: 0.8006160693028072, Done: False
+Step: 966, Action: [0.01878522 0.9160501 ], Reward: 0.8067501570935826, Done: False
+Step: 967, Action: [0.3710985 1.       ], Reward: 0.8287777975749708, Done: False
+Step: 968, Action: [-0.1755992   0.32032144], Reward: 0.8353321527576825, Done: False
+Step: 969, Action: [0.10327622 1.        ], Reward: 0.8431774908261669, Done: False
+Step: 970, Action: [-0.64694107  1.        ], Reward: 0.8600128463795317, Done: False
+Step: 971, Action: [-0.8135861  1.       ], Reward: 0.8562668220498342, Done: False
+Step: 972, Action: [-1.  1.], Reward: 0.8456255860202092, Done: False
+Step: 973, Action: [-0.24154074  1.        ], Reward: 0.8418817314856053, Done: False
+Step: 974, Action: [1. 1.], Reward: 0.8572054926960901, Done: False
+Step: 975, Action: [-0.92480886  1.        ], Reward: 0.8456870463794912, Done: False
+Step: 976, Action: [0.5445704 1.       ], Reward: 0.8344323289344748, Done: False
+Step: 977, Action: [0.0802061 1.       ], Reward: 0.8440150570463106, Done: False
+Step: 978, Action: [-0.3084851  0.8947613], Reward: 0.8679693378885571, Done: False
+Step: 979, Action: [-1.         0.7022078], Reward: 0.8687080303573682, Done: False
+Step: 980, Action: [0.3301803 1.       ], Reward: 0.8565004093152965, Done: False
+Step: 981, Action: [-0.15167159  1.        ], Reward: 0.8684860448110745, Done: False
+Step: 982, Action: [1. 1.], Reward: 0.8815977971675741, Done: False
+Step: 983, Action: [-0.4484387  1.       ], Reward: 0.8738005460101113, Done: False
+Step: 984, Action: [-0.11679333  1.        ], Reward: 0.8836495266720008, Done: False
+Step: 985, Action: [-0.8412273  1.       ], Reward: 0.8540491892262116, Done: False
+Step: 986, Action: [0.31649864 0.23514771], Reward: 0.8475739757956712, Done: False
+Step: 987, Action: [-0.01171139  1.        ], Reward: 0.854190958856984, Done: False
+Step: 988, Action: [-0.45720834  1.        ], Reward: 0.8761918412647559, Done: False
+Step: 989, Action: [-0.14845695  1.        ], Reward: 0.8868326918896506, Done: False
+Step: 990, Action: [-0.43506804  1.        ], Reward: 0.9073633930639629, Done: False
+Step: 991, Action: [-0.68792135  1.        ], Reward: 0.909131168571176, Done: False
+Step: 992, Action: [-0.41718128  1.        ], Reward: 0.9044435932348237, Done: False
+Step: 993, Action: [-0.01913353  1.        ], Reward: 0.913779612843732, Done: False
+Step: 994, Action: [0.3227448 1.       ], Reward: 0.94453108088073, Done: False
+Step: 995, Action: [-0.67114943  1.        ], Reward: 0.9585073311310076, Done: False
+Step: 996, Action: [-0.31886402  1.        ], Reward: 0.955070650234142, Done: False
+Step: 997, Action: [0.16642502 1.        ], Reward: 0.9655949389731453, Done: False
+Step: 998, Action: [-0.36210108  1.        ], Reward: -5.0, Done: True
+Step: 999, Action: [0.25131062 0.5075439 ], Reward: 0.004225953770548567, Done: False
