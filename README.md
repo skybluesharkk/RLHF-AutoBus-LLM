@@ -7,3 +7,7 @@
   RL, 자율 주행 구현
 - chatGPT
   LLM을 이용한 HF 구현
+
+
+huggingface cache삭제하는법.
+ls -lah ~/.cache/huggingface/hub

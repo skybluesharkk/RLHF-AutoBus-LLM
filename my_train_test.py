@@ -19,13 +19,13 @@ if __name__ == "__main__":
 
     #  환경 설정
     config = dict(
-        map="C",
+        map=4,
         discrete_action=False,
-        horizon=500,
+        horizon=1000,
         random_spawn_lane_index=True,
-        num_scenarios=3,
-        traffic_density=0.1,
-        accident_prob=0,
+        num_scenarios=10,
+        traffic_density=0,
+        accident_prob=0.1,
         log_level=50,
         use_render=False,               #  멀티스레드 렌더링 비활성화 (MacOS에서 충돌 가능)
         force_render_fps=True,        # FPS 제한 해제하여 부드러운 렌더링 유도

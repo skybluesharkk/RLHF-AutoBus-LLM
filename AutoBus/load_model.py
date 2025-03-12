@@ -4,14 +4,16 @@ import gymnasium as gym
 from stable_baselines3 import PPO
 from metadrive.envs import MetaDriveEnv
 from stable_baselines3.common.monitor import Monitor
+import os
 
+current_dir = os.path.dirname(os.path.abspath(__file__))  # load_model.py가 위치한 폴더
+model_path = os.path.join(current_dir, "ppo_metadrive_test_mycode.zip")
 
-model_path = "ppo_metadrive_test_mycode"
 model = PPO.load(model_path)
 print(f"Loaded model from {model_path}")
-
 env = MetaDriveEnv(dict(use_render=True,
-                        map=4))
+                        map=4,
+                        traffic_density=0,))
 num_episodes = 10  
 episode_rewards = []
 episode_lengths = []
@@ -39,7 +41,7 @@ for ep in range(num_episodes):
         time.sleep(0.05)  # 속도 조절
 
         if done:
-            print(f"🎯 Episode {ep+1} finished - Total Reward: {total_reward}, Steps: {step_count}")
+            print(f"Episode {ep+1} finished - Total Reward: {total_reward}, Steps: {step_count}")
             episode_rewards.append(total_reward)
             episode_lengths.append(step_count)
             break

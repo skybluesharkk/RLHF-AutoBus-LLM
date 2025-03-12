@@ -1,6 +1,7 @@
 import pygame
 import numpy as np
-from gpt_controller import NaturalLanguageController  # GPT 컨트롤러
+#from AutoBus.controllers.gpt_controller_updated import NaturalLanguageController  # GPT 컨트롤러
+from AutoBus.controllers.gpt_controller_updated import NaturalLanguageController
 from stable_baselines3 import PPO
 from metadrive.envs import MetaDriveEnv
 

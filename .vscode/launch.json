@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RLHF-AUTOBUS-LLM",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/AutoBus/controllers/run_simulation.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
