@@ -37,7 +37,7 @@ for ep in range(num_episodes):
         step_count += 1
 
         # 렌더링 (시각적으로 확인)
-        env.render(mode="human",map=4)
+        env.render(mode="human",)
         time.sleep(0.05)  # 속도 조절
 
         if done:

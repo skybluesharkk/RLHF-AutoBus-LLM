@@ -27,7 +27,7 @@ if __name__ == "__main__":
         traffic_density=0,
         accident_prob=0.1,
         log_level=50,
-        use_render=False,               #  멀티스레드 렌더링 비활성화 (MacOS에서 충돌 가능)
+        use_render=True,               #  멀티스레드 렌더링 비활성화 (MacOS에서 충돌 가능)
         force_render_fps=True,        # FPS 제한 해제하여 부드러운 렌더링 유도
         window_size=(1024, 768)       #  윈도우 크기 변경 (기본 600x600이 문제될 수 있음)
     )
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     #  모델 학습
     model.learn(total_timesteps=300_000, log_interval=4)
-    
+    '''
     #  모델 저장
     model.save("ppo_metadrive_test_mycode.zip")
     print(" Model saved: ppo_metadrive_test_mycode.zip")
@@ -82,3 +82,4 @@ if __name__ == "__main__":
         sys.stdout = sys.__stdout__
     finally:
         env.close()
+'''
