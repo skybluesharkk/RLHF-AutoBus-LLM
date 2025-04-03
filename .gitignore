@@ -1,9 +1,19 @@
+# 가상환경 / 설정
 *.env
-demo_data.npz
+__pycache__/
+*.pyc
+
+# 대용량 학습 결과 및 체크포인트
+*.zip
+*.npz
+
+# 특정 대용량 파일 명시 (폴더 내)
 AutoBus/Noto_Sans_KR.zip
-demo_data.npz
-AutoBus/Noto_Sans_KR.zip
+AutoBus/ppo_metadrive_test_mycode.zip
 ppo_boxcar2d.zip
 ppo_boxcar2d_d.zip
 ppo_feedback.zip
-AutoBus/ppo_metadrive_test_mycode.zip
+demo_data.npz
+
+# 텐서보드 로그
+ppo_tensorboard/
