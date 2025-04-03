@@ -5,7 +5,7 @@ import time
 
 def get_action_from_keys(keys):
     """
-    pygame의 키 입력을 CarRacing/BoxCar2D 환경의 연속 행동 벡터로 매핑합니다.
+    pygame의 키 입력을 CarRacing/BoxCar2D 환경의 연속 행동 벡터로 매핑
     행동 공간: [steering, gas, brake]
       - steering: -1 (왼쪽) ~ 1 (오른쪽)
       - gas: 0 ~ 1
@@ -26,19 +26,19 @@ def get_action_from_keys(keys):
 
 def collect_demo_data(env_name="CarRacing-v3", total_steps=5000, demo_file="demo_data.npz"):
     """
-    데모 데이터를 수집합니다.
-      - env_name: 사용할 환경 이름. BoxCar2D 환경이 있다면 "BoxCar2D-v0" 등으로 변경.
+    데모 데이터를 수집.
+      - env_name: 사용할 환경 이름.
       - total_steps: 총 몇 스텝의 데이터를 수집할지 지정.
       - demo_file: 수집된 데이터를 저장할 파일 이름.
     """
-    # render_mode="human"로 설정하면, 환경이 pygame 창을 통해 화면에 표시됩니다.
+    
     env = gym.make(env_name, render_mode="human")
     obs, info = env.reset()
     
     demo_observations = []
     demo_actions = []
     
-    # pygame 초기화 및 입력 창 설정
+    
     pygame.init()
     screen = pygame.display.set_mode((1000, 1000))
     pygame.display.set_caption("데모 데이터 수집 - Q키를 눌러 종료")

@@ -26,7 +26,7 @@ class TimeStampedQueueEnv(gym.Wrapper):
         self.queue.append(entry)
 
         self.last_obs = obs
-        #self.get_queue()
+        self.get_queue()
         return obs, reward, done, truncated, info
 
     def get_near_states(self, query_time, tolerance=0.5):

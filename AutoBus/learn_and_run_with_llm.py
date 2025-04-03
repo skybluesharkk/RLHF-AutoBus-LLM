@@ -5,7 +5,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 from stable_baselines3.common.monitor import Monitor
 from metadrive.envs import MetaDriveEnv
-from AutoBus.controllers.gpt_controller_v2 import NaturalLanguageController
+from controllers.llm.gpt.gpt_controller_v2 import NaturalLanguageController
 
 USE_GPT_CONTROL = False
 LLM_FEEDBACK = None  # 예: {"action": {"command": "W", "strength": 0.8}, "reward": 2}

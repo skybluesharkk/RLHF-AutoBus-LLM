@@ -33,9 +33,9 @@ model = PPO(
 )
 
 
-#log_filename = "boxcar2d_q.txt"
-#log_file = open(log_filename, "w")
-#sys.stdout = log_file
+log_filename = "boxcar2d_q.txt"
+log_file = open(log_filename, "w")
+sys.stdout = log_file
 model.learn(total_timesteps=1_000_000, log_interval=4)
 model.save("ppo_boxcar2d_q.zip")
 queue_env.close()
