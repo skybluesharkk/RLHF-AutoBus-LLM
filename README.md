@@ -10,7 +10,7 @@
   강화학습 기반 자율 주행 시뮬레이터  
 - **ChatGPT / LLM (Large Language Model)**  
   사용자의 자연어 피드백(Human Feedback)을 이용한 학습
-- ** Box2d CarRacing
+- **Box2d CarRacing**
   RL + HF 연구
   
 ---
