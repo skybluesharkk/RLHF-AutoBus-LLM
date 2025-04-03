@@ -16,4 +16,4 @@ ppo_feedback.zip
 demo_data.npz
 
 # 텐서보드 로그
-ppo_tensorboard/
+ppo_tensorboard/metadrive/
